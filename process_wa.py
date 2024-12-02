@@ -121,17 +121,51 @@ def process_stage2( input_list, output_list ):
 		print(f"Processed {processed_lines} lines.")
 		print(f"Errored {error_lines} lines.")
 
-tsv_header = [ "Date","Account","Category","Subcategory","Note","INR","Income/Expense","Description","Amount","Currency","Account" ]
+tsv_category = [
+"Food", # 0
+"Grocery", # 1
+"Shopping", # 2
+"Travel", # 3
+"Misc", # 4
+"Health", # 5
+"Utility", # 6
+"Gift", # 7
+"Education", # 8
+]
+
+def stage3_category( csv_data):
+	if csv_data.lower() == "auto" or csv_data.lower() == "petrol":
+		return tsv_category[3]
+	elif csv_data.lower() == "swiggy":
+		return tsv_category[0]
+	elif csv_data.lower() == "shoprite" or csv_data.lower() == "zepto" or csv_data.lower() == "shankar":
+		return tsv_category[1]
+	else:
+		return tsv_category[4]
+
+tsv_header = [
+"Date", # 0
+"Account", # 1
+"Category", # 2
+"Subcategory", # 3
+"Note", # 4
+"INR", # 5
+"Income/Expense", # 6
+"Description", # 7
+"Amount", # 8
+"Currency", # 9
+"Account" # 10
+]
 
 def process_stage3( input_list, tsv_file_name ):
 	output_list = []
 	for ln in input_list:
 		op_ln = ["","","","","","","","","","",""]
 		op_ln[0] = ln[0]
-		op_ln[1] = "Self-cash" #Account
-		op_ln[2] = "Misc" #Category
+		op_ln[1] = ln[2] + "-" + ln[4] # "self-cash" Account
+		op_ln[2] = stage3_category( ln[1] ) # "Misc" Category
 		op_ln[3] = ""
-		op_ln[4] = ""
+		op_ln[4] = ln[1].replace(' ', '-')
 		op_ln[5] = ln[3]
 		op_ln[6] = "Expense" #Income/Expense
 		op_ln[7] = "" #Description
