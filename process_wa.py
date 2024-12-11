@@ -2,6 +2,7 @@
 import csv
 import re
 import sys
+import os
 
 DEBUG=0
 
@@ -126,22 +127,42 @@ tsv_category = [
 "Grocery", # 1
 "Shopping", # 2
 "Travel", # 3
-"Misc", # 4
-"Health", # 5
-"Utility", # 6
-"Gift", # 7
-"Education", # 8
+"Health", # 4
+"Utility", # 5
+"Gift", # 6
+"Education", # 7
+"Misc", # 8
 ]
 
-def stage3_category( csv_data):
-	if csv_data.lower() == "auto" or csv_data.lower() == "petrol":
-		return tsv_category[3]
-	elif csv_data.lower() == "swiggy":
-		return tsv_category[0]
-	elif csv_data.lower() == "shoprite" or csv_data.lower() == "zepto" or csv_data.lower() == "shankar":
-		return tsv_category[1]
+def stage3_category( cat_dict, csv_data ):
+	# GTT
+	csv_cat = csv_data.lower()
+	processed_cat = 0
+	if csv_cat not in cat_dict.keys():
+		print(f"Processing => \"{csv_data}\"")
+		print("0:Food, 1:Grocery, 2:Shopping, 3:Travel, 4:Health, 5:Utility, 6:Gift, 7:Education, 8:Misc(Default)")
+		var = input("Please enter correct category: ")
+		print("You entered: " + var)
+		try:
+			if not var or int(var) < 0 or int(var) > 8:
+				processed_cat = 8
+			else:
+				processed_cat = int(var)
+		except:
+			processed_cat = 8
 	else:
-		return tsv_category[4]
+		processed_cat = cat_dict[csv_cat][0]
+
+	print(f"Processed category \"{csv_data}\" as {processed_cat}:{tsv_category[processed_cat]}")
+	if csv_cat in cat_dict.keys():
+		if cat_dict[csv_cat][0] == processed_cat:
+			cat_dict[csv_cat][1] += 1
+		else:
+			cat_dict[csv_cat][0] = processed_cat
+			cat_dict[csv_cat][1] = 0
+	else:
+		cat_dict[csv_cat] = [ processed_cat, 0 ]
+	return processed_cat
 
 tsv_header = [
 "Date", # 0
@@ -159,11 +180,24 @@ tsv_header = [
 
 def process_stage3( input_list, tsv_file_name ):
 	output_list = []
+
+	# Open the dict file and load the map
+	# { "category" : [ <category_id> , <category_freq> ]
+	cat_dict = {}
+	cat_filename = "cat_dist.map"
+	if os.path.exists( cat_filename ):
+		with open( cat_filename, 'r') as cat_file:
+			for line in cat_file:
+				line = line.strip()
+				ln = line.split(',')
+				if len(ln) == 3:
+					cat_dict[ ln[0] ] = [ int(ln[1]), int(ln[2]) ]
+
 	for ln in input_list:
 		op_ln = ["","","","","","","","","","",""]
 		op_ln[0] = ln[0]
 		op_ln[1] = ln[2] + "-" + ln[4] # "self-cash" Account
-		op_ln[2] = stage3_category( ln[1] ) # "Misc" Category
+		op_ln[2] = stage3_category( cat_dict, ln[1] ) # "Misc" Category
 		op_ln[3] = ""
 		op_ln[4] = ln[1].replace(' ', '-')
 		op_ln[5] = ln[3]
@@ -173,6 +207,10 @@ def process_stage3( input_list, tsv_file_name ):
 		op_ln[9] = "INR"
 		op_ln[10] = ln[3]
 		output_list.append( op_ln )
+
+	with open( cat_filename, 'w') as cat_file:
+		for k in cat_dict.keys():
+			cat_file.write(f"{k},{cat_dict[k][0]},{cat_dict[k][1]}\n")
 		
 	# Write the output CSV file
 	with open( tsv_file_name, 'w', newline='' ) as output_file:
