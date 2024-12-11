@@ -123,16 +123,18 @@ def process_stage2( input_list, output_list ):
 		print(f"Errored {error_lines} lines.")
 
 tsv_category = [
-"Food", # 0
-"Grocery", # 1
-"Shopping", # 2
-"Travel", # 3
-"Health", # 4
-"Utility", # 5
-"Gift", # 6
-"Education", # 7
-"Misc", # 8
+"Misc", # 0
+"Food", # 1
+"Grocery", # 2
+"Shopping", # 3
+"Lifestyle", # 4
+"Travel", # 5
+"Health", # 6
+"Utility", # 7
+"Education", # 8
+"Gift", # 9
 ]
+catStr = "1:Food, 2:Grocery, 3:Shopping, 4:Lifestyle, 5:Travel, 6:Health, 7:Utility, 8:Education, 9:Gift, 0:Misc(Default)"
 
 def stage3_category( cat_dict, csv_data ):
 	# GTT
@@ -140,16 +142,16 @@ def stage3_category( cat_dict, csv_data ):
 	processed_cat = 0
 	if csv_cat not in cat_dict.keys():
 		print(f"Processing => \"{csv_data}\"")
-		print("0:Food, 1:Grocery, 2:Shopping, 3:Travel, 4:Health, 5:Utility, 6:Gift, 7:Education, 8:Misc(Default)")
+		print(catStr)
 		var = input("Please enter correct category: ")
 		print("You entered: " + var)
 		try:
-			if not var or int(var) < 0 or int(var) > 8:
-				processed_cat = 8
+			if not var or int(var) < 0 or int(var) > 9:
+				processed_cat = 0
 			else:
 				processed_cat = int(var)
 		except:
-			processed_cat = 8
+			processed_cat = 0
 	else:
 		processed_cat = cat_dict[csv_cat][0]
 
@@ -162,7 +164,7 @@ def stage3_category( cat_dict, csv_data ):
 			cat_dict[csv_cat][1] = 0
 	else:
 		cat_dict[csv_cat] = [ processed_cat, 0 ]
-	return processed_cat
+	return tsv_category[processed_cat]
 
 tsv_header = [
 "Date", # 0
