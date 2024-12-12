@@ -56,11 +56,11 @@ Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Cur
 17/10/24	not-self-cash	Health		Sagar	424	Expense		424	INR	424
 17/10/24	self-cash	Food		Bday-cake	4000	Expense		4000	INR	4000
 17/10/24	self-cash	Food		Pizza-advance	1000	Expense		1000	INR	1000
-17/10/24	not-self-cash	Shopping		Light	520	Expense		520	INR	520
+17/10/24	not-self-cash	Grocery		Light	520	Expense		520	INR	520
 17/10/24	self-cash	Shopping		Birth-day-decor-and-return-gifts	3100	Expense		3100	INR	3100
 17/10/24	self-card	Shopping		Birth-day-decor-and-return-gifts	1160	Expense		1160	INR	1160
 17/10/24	self-cash	Shopping		Stationary	120	Expense		120	INR	120
-18/10/24	self-cash	Misc		Pencils	250	Expense		250	INR	250
+18/10/24	self-cash	Shopping		Pencils	250	Expense		250	INR	250
 19/10/24	self-cash	Food		Swiggy	520	Expense		520	INR	520
 19/10/24	self-card	Lifestyle		VR-game	150	Expense		150	INR	150
 20/10/24	self-cash	Grocery		Dmart	3180	Expense		3180	INR	3180
@@ -68,7 +68,7 @@ Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Cur
 20/10/24	self-cash	Food		Cake	500	Expense		500	INR	500
 20/10/24	self-cash	Food		Samosa	500	Expense		500	INR	500
 20/10/24	self-cash	Lifestyle		Cutting	1150	Expense		1150	INR	1150
-21/10/24	self-cash	Food		Vasavi	900	Expense		900	INR	900
+21/10/24	self-cash	Grocery		Vasavi	900	Expense		900	INR	900
 21/10/24	self-cash	Lifestyle		Urben-clap	500	Expense		500	INR	500
 21/10/24	self-cash	Grocery		zepto	520	Expense		520	INR	520
 21/10/24	self-cash	Grocery		instant-mix	370	Expense		370	INR	370

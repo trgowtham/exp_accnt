@@ -3,6 +3,7 @@ import csv
 import re
 import sys
 import os
+from datetime import datetime
 
 DEBUG=0
 
@@ -13,9 +14,28 @@ def load_input_file( input_file_name, input_lst ):
 			line = line.strip()
 			input_lst.append(line)
 
+def all_dates_same_month(dates):
+	parsed_dates = [datetime.strptime(date, "%d/%m/%y") for date in dates]
+	# Extract month and year of the first date
+	first_month = parsed_dates[0].month
+	first_year = parsed_dates[0].year
+	# Check if all dates have the same month and year
+	different_dates = [
+		date.strftime("%d-%m-%Y")
+		for date in parsed_dates
+		if date.month != first_month or date.year != first_year
+	]
+	if different_dates:
+		print(f"Some dates are not in same month {different_dates}. Exiting")
+		return False
+	else:
+		return True
+
+
 def process_stage1( input_lst, process_stg1 ):
 	skipped_lines = 0
 	previous_date = None
+	dates=[]
 	for line in input_lst:
 		line = line.strip()
 		# Check if the line contains a date
@@ -29,6 +49,7 @@ def process_stage1( input_lst, process_stg1 ):
 				print(f"Warning: No date found in line and no previous date available. Line: {line}")		
 				date = "01/01/24"
 			date = previous_date
+		dates.append(date)
 		# Skip lines that do not contain any numbers
 		skip_line_check = line.split(':')[-1]
 		if not any(char.isdigit() for char in skip_line_check):
@@ -37,6 +58,8 @@ def process_stage1( input_lst, process_stg1 ):
 			continue
 	
 		process_stg1.append([date,skip_line_check.strip()])
+	if not all_dates_same_month(dates):
+		sys.exit(1)
 
 	if DEBUG:
 		print(f"\nSkipped {skipped_lines} lines.")

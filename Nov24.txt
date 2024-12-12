@@ -77,7 +77,7 @@ Auto 140
 [30/11/24, 7:13:21 PM] Gowtham: Auto W205
 [30/11/24, 7:13:34 PM] Gowtham: Cake 430
 [30/11/24, 7:14:31 PM] Gowtham: Auto 100
-[30/11/24, 7:14:35 PM] Gowtham: Ticket W290
+[30/11/24, 7:14:35 PM] Gowtham: Movie Ticket W290
 [30/11/24, 7:14:59 PM] Gowtham: Nacho 300
-[30/12/24, 7:14:59 PM] Gowtham: Petrol 3000
+[30/11/24, 7:14:59 PM] Gowtham: Petrol 3000
 Maid 5700

@@ -82,7 +82,7 @@ Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Cur
 30/11/24	self-card	Travel		Auto	205	Expense		205	INR	205
 30/11/24	self-cash	Food		Cake	430	Expense		430	INR	430
 30/11/24	self-cash	Travel		Auto	100	Expense		100	INR	100
-30/11/24	self-card	Travel		Ticket	290	Expense		290	INR	290
+30/11/24	self-card	Lifestyle		Movie-Ticket	290	Expense		290	INR	290
 30/11/24	self-cash	Food		Nacho	300	Expense		300	INR	300
 30/11/24	self-cash	Travel		Petrol	3000	Expense		3000	INR	3000
 30/11/24	self-cash	Utility		Maid	5700	Expense		5700	INR	5700
