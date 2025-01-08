@@ -32,6 +32,17 @@ process_stage1( process_inp, process_stg1 )
 process_stg2 = []
 process_stage2(process_stg1, process_stg2)
 
+# Summary
+total=0
+white=0
+amma=0
+for ln in process_stg2:
+	if ln[2] == 'not-self':
+		amma = amma + int(ln[3])
+	if ln[4] == 'card':
+		white = white + int(ln[3])
+	total = total + int(ln[3])
+
 # Write the output CSV file
 with open(output_file_name, 'w', newline='') as output_file:
 	# Create a CSV writer
@@ -43,3 +54,5 @@ with open(output_file_name, 'w', newline='') as output_file:
 
 tsv_file_name="xl-" + input_file_name.replace('.txt', '.tsv')
 process_stage3(process_stg2, tsv_file_name)
+
+print(f'''{input_file_name} Total {total} White {white} Amma {amma}''')
