@@ -1,0 +1,88 @@
+Date,Name,Person,Amount,Type
+02/11/24,Swiggy,self,930,cash
+02/11/24,Doctor,self,310,cash
+02/11/24,Zepto,self,313,card
+03/11/24,Auto cab,self,70,cash
+03/11/24,Auto cab,self,180,card
+03/11/24,Funcity,self,3200,card
+03/11/24,Youmee,self,2500,cash
+03/11/24,McD,self,155,cash
+03/11/24,lulu,self,1020,cash
+04/11/24,Auto,self,50,card
+04/11/24,Temple,self,320,cash
+04/11/24,Auto,self,82,card
+04/11/24,Auto,self,76,card
+04/11/24,Amazon,self,300,cash
+04/11/24,Auto,self,60,card
+04/11/24,Auto,not-self,125,card
+04/11/24,Auto,self,70,cash
+04/11/24,BB,self,2323,card
+04/11/24,BB,not-self,942,card
+05/11/24,Zepto,self,706,cash
+05/11/24,Zepto,not-self,100,cash
+06/11/24,auto,self,150,card
+07/11/24,auto,self,76,card
+08/11/24,Auto,self,134,card
+08/11/24,Cab,self,421,card
+08/11/24,Cab,self,340,cash
+09/11/24,BB,self,423,card
+09/11/24,BB,not-self,450,card
+09/11/24,Auto,self,165,card
+09/11/24,Ishta,self,1640,cash
+09/11/24,Parlor,self,3606,cash
+09/11/24,Ice cream,self,240,cash
+09/11/24,Auto,self,140,cash
+09/11/24,Blink it,self,530,cash
+10/11/24,Gas,self,500,cash
+10/11/24,Zepto,self,1100,card
+10/11/24,Zepto,self,500,cash
+10/11/24,Car cleaning,self,1200,cash
+10/11/24,Auto,self,63,card
+11/11/24,Doctor,self,360,cash
+11/11/24,Temple,self,300,cash
+12/11/24,Auto,not-self,130,card
+13/11/24,OneMg,self,424,card
+13/11/24,Auto,self,230,card
+14/11/24,Auto,self,300,card
+15/11/24,Pizzahut,self,500,cash
+15/11/24,Movie,self,600,cash
+15/11/24,Auto,self,185,card
+15/11/24,Homecentre,self,1560,cash
+16/11/24,Zepto,self,1120,card
+16/11/24,BB,self,1006,card
+17/11/24,Kishen Food,self,1000,cash
+17/11/24,Cab,self,400,cash
+17/11/24,Frozen,self,400,card
+17/11/24,Blinkit,self,300,cash
+17/11/24,Blinkit,not-self,230,cash
+18/11/24,Auto,not-self,87,card
+18/11/24,Myntra vihaan,self,520,cash
+18/11/24,Doctor,self,1370,cash
+19/11/24,UrbanClap,self,399,card
+19/11/24,Zepto,self,1230,card
+21/11/24,Auto,self,100,cash
+22/11/24,Temple,self,140,cash
+22/11/24,Bda med,self,305,cash
+22/11/24,Office,self,100,cash
+22/11/24,Office,self,65,card
+23/11/24,Urbanclap,self,272,card
+23/11/24,Kumaran,self,100,cash
+23/11/24,Swiggy,self,1100,cash
+24/11/24,Zepta,self,1138,card
+24/11/24,Namadari grocery,self,2170,cash
+24/11/24,Tiffin,self,185,cash
+24/11/24,Tiffin,not-self,410,cash
+28/11/24,Third wave,self,733,cash
+28/11/24,Xerox,self,230,cash
+29/11/24,Bus,self,170,card
+29/11/24,BMS,self,373,card
+30/11/24,Zepto,self,1263,card
+30/11/24,Myntra,self,1400,card
+30/11/24,Auto,self,90,card
+30/11/24,Auto,self,205,card
+30/11/24,Cake,self,430,cash
+30/11/24,Auto,self,100,cash
+30/11/24,Movie Ticket,self,290,card
+30/11/24,Nacho,self,300,cash
+30/11/24,Petrol,self,3000,cash
+30/11/24,Maid,self,5700,cash
