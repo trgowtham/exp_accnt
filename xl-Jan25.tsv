@@ -1,5 +1,6 @@
 Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Currency	Account
 03/01/25	self-cash	Food		Youmee	5300	Expense		5300	INR	5300
+03/01/25	self-cash	Utility		Maids	5700	Expense		5700	INR	5700
 03/01/25	self-card	Travel		Parking	100	Expense		100	INR	100
 03/01/25	self-card	Health		Medical-test	6463	Expense		6463	INR	6463
 03/01/25	self-cash	Travel		Train	2910	Expense		2910	INR	2910
