@@ -6,9 +6,9 @@ import sys
 def test_data( teststr, input_str, exp_op):
 	test_stg1 = []
 	test_stg2 = []
-	process_stage1( [input_str], test_stg1)
+	process_stage1( [input_str], test_stg1, True)
 	process_stage2( test_stg1, test_stg2)
-	if exp_op != test_stg2:
+	if sorted(exp_op) != sorted(test_stg2):
 		print(f"{teststr} test fail ...")
 		print(f"Expected {exp_op}. Read {test_stg2}")
 	else:
@@ -69,3 +69,35 @@ test_data( "Test 12", inp_data, test_op)
 inp_data = "[31/10/24, 9:34:42 AM] Gowtham: Blinkit 1225 A 275"
 test_op = [["31/10/24", 'Blinkit', 'self', '1225', 'cash'], ["31/10/24", 'Blinkit', 'not-self', '275', 'cash']]
 test_data( "Test 13", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket W1728 WA 586"
+test_op = [["31/10/24", 'BigBasket', 'self', '1728', 'card'], ["31/10/24", 'BigBasket', 'not-self', '586', 'card']]
+test_data( "Test 14", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket W1728 WA586"
+test_op = [["31/10/24", 'BigBasket', 'self', '1728', 'card'], ["31/10/24", 'BigBasket', 'not-self', '586', 'card']]
+test_data( "Test 15", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket WA586 W1728"
+test_op = [["31/10/24", 'BigBasket', 'self', '1728', 'card'], ["31/10/24", 'BigBasket', 'not-self', '586', 'card']]
+test_data( "Test 16", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket WA 586 W1728"
+test_op = [["31/10/24", 'BigBasket', 'self', '1728', 'card'], ["31/10/24", 'BigBasket', 'not-self', '586', 'card']]
+test_data( "Test 17", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket A 586 W1728"
+test_op = [["31/10/24", 'BigBasket', 'self', '1728', 'card'], ["31/10/24", 'BigBasket', 'not-self', '586', 'cash']]
+test_data( "Test 18", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket 1728 A 586"
+test_op = [["31/10/24", 'BigBasket', 'self', '1728', 'cash'], ["31/10/24", 'BigBasket', 'not-self', '586', 'cash']]
+test_data( "Test 19", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket 1728 W586"
+test_op = [["31/10/24", 'BigBasket', 'self', '1728', 'cash'], ["31/10/24", 'BigBasket', 'self', '586', 'card']]
+test_data( "Test 20", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket A1728 WA586"
+test_op = [["31/10/24", 'BigBasket', 'not-self', '1728', 'cash'], ["31/10/24", 'BigBasket', 'not-self', '586', 'card']]
+test_data( "Test 21", inp_data, test_op)

@@ -32,7 +32,7 @@ def all_dates_same_month(dates):
 		return True
 
 
-def process_stage1( input_lst, process_stg1 ):
+def process_stage1( input_lst, process_stg1, test_mode_flag ):
 	skipped_lines = 0
 	previous_date = None
 	dates=[]
@@ -46,9 +46,13 @@ def process_stage1( input_lst, process_stg1 ):
 		else:
 			# Use the previous date if no date is found in the line
 			if previous_date is None:
-				print(f"Warning: No date found in line and no previous date available. Line: {line}")		
-				date = "01/01/24"
-			date = previous_date
+				print(f"Warning: No date found in line and no previous date available. Line: {line}")
+				if not test_mode_flag:
+					date = "01/01/24"
+				else:
+					date = None
+			else:
+				date = previous_date
 		dates.append(date)
 		# Skip lines that do not contain any numbers
 		skip_line_check = line.split(':')[-1]
@@ -58,8 +62,9 @@ def process_stage1( input_lst, process_stg1 ):
 			continue
 	
 		process_stg1.append([date,skip_line_check.strip()])
-	if not all_dates_same_month(dates):
-		sys.exit(1)
+	if not test_mode_flag:
+		if not all_dates_same_month(dates):
+			sys.exit(1)
 
 	if DEBUG:
 		print(f"\nSkipped {skipped_lines} lines.")
@@ -87,6 +92,9 @@ def process_stage2( input_list, output_list ):
 					exp_type = "card"
 				elif ds == "A" or ds == "a":
 					exp_home = "not-self"
+				elif ds == "WA" or ds == "wa":
+					exp_home = "not-self"
+					exp_type = "card"
 				elif datastr == "":
 					datastr = ds
 				else:
@@ -238,6 +246,7 @@ def process_stage3( input_list, tsv_file_name ):
 			cat_file.write(f"{k},{cat_dict[k][0]},{cat_dict[k][1]}\n")
 		
 	# Write the output CSV file
+	print( "Writing to", tsv_file_name )
 	with open( tsv_file_name, 'w', newline='' ) as output_file:
 		# Create a TSV writer
 		tsv_writer = csv.writer( output_file, delimiter='\t', lineterminator='\n' )

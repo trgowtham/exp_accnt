@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import csv
 import re
-import sys
+import sys, os
 from process_wa import load_input_file, process_stage1, process_stage2, process_stage3
 
 if len(sys.argv) != 2:
@@ -10,7 +10,8 @@ if len(sys.argv) != 2:
 
 # Define the input and output file names
 input_file_name = sys.argv[1]
-output_file_name = "xl-" + input_file_name.replace('.txt', '.csv')
+file_name = os.path.basename(input_file_name)
+csv_file_name = "csv/" + file_name.replace('.txt', '.csv')
 
 # Define the CSV header
 csv_header = ['Date', 'Name', 'Person', 'Amount', 'Type']
@@ -23,7 +24,7 @@ load_input_file( input_file_name, process_inp )
 # From [10/2/24, 7:02:37 PM] Mythri: Maids 2500, 3200
 # To list ['10/2/24', 'Maids 2500, 3200']
 process_stg1 = []
-process_stage1( process_inp, process_stg1 )
+process_stage1( process_inp, process_stg1, False)
 
 # Stage 2
 # From ['10/2/24', 'Maids 2500, 3200']
@@ -44,7 +45,7 @@ for ln in process_stg2:
 	total = total + int(ln[3])
 
 # Write the output CSV file
-with open(output_file_name, 'w', newline='') as output_file:
+with open(csv_file_name, 'w', newline='') as output_file:
 	# Create a CSV writer
 	csv_writer = csv.writer(output_file)
 
@@ -52,7 +53,7 @@ with open(output_file_name, 'w', newline='') as output_file:
 	csv_writer.writerow(csv_header)
 	csv_writer.writerows(process_stg2)
 
-tsv_file_name="xl-" + input_file_name.replace('.txt', '.tsv')
+tsv_file_name = "tsv/" + file_name.replace('.txt', '.tsv')
 process_stage3(process_stg2, tsv_file_name)
 
 print(f'''{input_file_name} Total {total} White {white} Amma {amma}''')
