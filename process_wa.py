@@ -168,7 +168,6 @@ tsv_category = [
 catStr = "1:Food, 2:Grocery, 3:Shopping, 4:Lifestyle, 5:Travel, 6:Health, 7:Utility, 8:Education, 9:Gift, 0:Misc(Default)"
 
 def stage3_category( cat_dict, csv_data ):
-	# GTT
 	csv_cat = csv_data.lower()
 	processed_cat = 0
 	if csv_cat not in cat_dict.keys():
@@ -239,7 +238,8 @@ def process_stage3( input_list, output_list, tsv_file_name ):
 		op_ln[8] = ln[3] #Amount
 		op_ln[9] = "INR"
 		op_ln[10] = ln[3]
-		tsv_list.append( op_ln )
+		if "Annually" not in ln[1] and "annually" not in ln[1]:
+			tsv_list.append( op_ln )
 		output_list.append( [ op_ln[0], op_ln[1], op_ln[2], op_ln[4], op_ln[5] ] )
 
 	with open( cat_filename, 'w') as cat_file:

@@ -29,7 +29,6 @@ Date,Account,Category,Description,Amount
 09/12/24,self-cash,Misc,Plumber,500
 09/12/24,self-cash,Shopping,Myntra-GT-jacket,2950
 09/12/24,self-cash,Lifestyle,Parlour,3000
-10/12/24,self-card,Utility,Insurance,4585
 11/12/24,self-cash,Utility,Gas,540
 11/12/24,self-card,Grocery,Zepto,952
 11/12/24,not-self-card,Grocery,Zepto,400
@@ -66,10 +65,8 @@ Date,Account,Category,Description,Amount
 19/12/24,not-self-card,Travel,Bus,425
 19/12/24,not-self-cash,Food,Pizza,1110
 19/12/24,self-cash,Grocery,Zepto,400
-21/12/24,self-card,Lifestyle,Hyatt-points,6100
 21/12/24,not-self-card,Grocery,Zepto,226
 21/12/24,self-card,Grocery,BB,275
-21/12/24,self-card,Gift,Donation,4000
 21/12/24,self-card,Travel,Auto,71
 21/12/24,self-card,Food,Wraffel,375
 21/12/24,self-card,Travel,Auto,87
@@ -107,8 +104,4 @@ Date,Account,Category,Description,Amount
 26/12/24,self-card,Travel,Auto,180
 26/12/24,self-cash,Shopping,Vihaan-cloths,650
 26/12/24,self-cash,Grocery,Lulu-grocery,650
-26/12/24,self-cash,Lifestyle,MangoMist,6700
-26/12/24,self-card,Lifestyle,MangoMist,28036
 26/12/24,self-card,Grocery,Amazon-chocolate,408
-26/12/24,self-cash,Misc,Akka,10000
-26/12/24,self-cash,Education,OpenHouse,21000

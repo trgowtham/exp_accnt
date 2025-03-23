@@ -1,0 +1,14 @@
+05/02/25,not-self-card,Utility,Annually-UIIC-parents,59953
+05/02/25,self-card,Utility,Annually-UIIC-family,19184
+06/02/25,self-cash,Lifestyle,Annually-Honda-car-service,14020
+10/12/24,self-card,Utility,Annually-Insurance,4585
+21/12/24,self-card,Lifestyle,Annually-Hyatt-points,6100
+21/12/24,self-card,Gift,Annually-Donation,4000
+26/12/24,self-cash,Travel,Annually-MangoMist,6700
+26/12/24,self-card,Travel,Annually-MangoMist,28036
+26/12/24,self-cash,Gift,Annually-Akka,10000
+26/12/24,self-cash,Education,Annually-OpenHouse,21000
+08/01/25,not-self-card,Utility,Annually-Tata-play,4037
+11/01/25,self-card,Education,Annually-School-fees,22142
+20/01/25,not-self-card,Utility,Annually-Mobile-recharge,1999
+03/01/25,not-self-card,Health,Annually-Medical-test,6463

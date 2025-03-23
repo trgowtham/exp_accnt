@@ -1,5 +1,5 @@
-Oct24.txt - Total 85023 White 10115 Amma 9017
-Nov24.txt - Total 58530 White 21110 Amma 2474
-Dec24.txt - Total 157357 White 63565 Amma 15726
-Jan25.txt - Total 109316 White 51068 Amma 25154
-Feb25.txt - Total 165359 White 92871 Amma 68852
+Oct24.txt - Total 85023 White 10115 Others 9017
+Nov24.txt - Total 58530 White 21110 Others 2474
+Dec24.txt - Total 76936 White 20844 Others 15726
+Jan25.txt - Total 81138 White 22890 Others 41988
+Feb25.txt - Total 72202 White 13734 Others 8899

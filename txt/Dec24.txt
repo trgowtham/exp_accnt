@@ -24,7 +24,7 @@
 [09/12/24, 1:47:23 PM] Gowtham: Plumber 500
 [09/12/24, 1:47:36 PM] Gowtham: Myntra GT jacket 2950
 [09/12/24, 1:50:17 PM] Gowtham: Parlour 3000
-[10/12/24, 2:17:07 PM] Gowtham: Insurance W4585
+[10/12/24, 2:17:07 PM] Gowtham: Annually Insurance W4585
 [11/12/24, 10:03:53 AM] Gowtham: Gas 540
 [11/12/24, 10:06:53 AM] Gowtham: Zepto W952 WA400
 [11/12/24, 11:11:26 AM] Gowtham: Electrician 500
@@ -55,10 +55,10 @@
 [19/12/24, 10:01:47 AM] Gowtham: Bus WA425
 [19/12/24, 8:00:26 PM] Gowtham: Pizza A1110
 [19/12/24, 8:01:29 PM] Gowtham: Zepto 400
-[21/12/24, 5:30:02 AM] Gowtham: Hyatt points W6100
+[21/12/24, 5:30:02 AM] Gowtham: Annually Hyatt points W6100
 [21/12/24, 8:52:23 AM] Gowtham: Zepto WA226
 [21/12/24, 8:58:07 AM] Gowtham: BB W275
-[21/12/24, 12:45:57 PM] Gowtham: Donation W4000
+[21/12/24, 12:45:57 PM] Gowtham: Annually Donation W4000
 [21/12/24, 4:13:30 PM] Mythri: Auto W71
 [21/12/24, 6:35:23 PM] Mythri: Wraffel w375
 [21/12/24, 6:56:17 PM] Mythri: Auto W87
@@ -95,8 +95,8 @@
 [26/12/24, 2:08:09 PM] Mythri: Auto W180
 [26/12/24, 2:08:20 PM] Mythri: Vihaan cloths 650
 [26/12/24, 2:08:28 PM] Mythri: Lulu grocery 650
-MangoMist 6700
-MangoMist W28036
+Annually MangoMist 6700
+Annually MangoMist W28036
 Amazon chocolate W408
-Akka 10000
-OpenHouse 21000
+Annually Akka 10000
+Annually OpenHouse 21000

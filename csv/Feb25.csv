@@ -29,8 +29,6 @@ Date,Account,Category,Description,Amount
 04/02/25,self-cash,Lifestyle,Fatafat,170
 04/02/25,self-cash,Food,Benne-dosa,400
 05/02/25,self-cash,Food,Anand,270
-05/02/25,not-self-card,Utility,UIIC-parents,59953
-05/02/25,self-card,Utility,UIIC-family,19184
 05/02/25,self-card,Utility,ACT,300
 05/02/25,self-card,Grocery,BigBasket,1728
 05/02/25,not-self-card,Grocery,BigBasket,586
@@ -39,7 +37,6 @@ Date,Account,Category,Description,Amount
 05/02/25,self-card,Shopping,Cross-world,159
 05/02/25,self-card,Travel,Auto,146
 06/02/25,self-cash,Travel,Auto,247
-06/02/25,self-cash,Lifestyle,Honda-car-service,14020
 06/02/25,self-cash,Shopping,Stationary,430
 07/02/25,self-cash,Food,Milano,480
 08/02/25,self-cash,Food,Pump-house,3000

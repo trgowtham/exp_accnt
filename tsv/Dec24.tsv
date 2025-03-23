@@ -29,7 +29,6 @@ Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Cur
 09/12/24	self-cash	Misc		Plumber	500	Expense		500	INR	500
 09/12/24	self-cash	Shopping		Myntra-GT-jacket	2950	Expense		2950	INR	2950
 09/12/24	self-cash	Lifestyle		Parlour	3000	Expense		3000	INR	3000
-10/12/24	self-card	Utility		Insurance	4585	Expense		4585	INR	4585
 11/12/24	self-cash	Utility		Gas	540	Expense		540	INR	540
 11/12/24	self-card	Grocery		Zepto	952	Expense		952	INR	952
 11/12/24	not-self-card	Grocery		Zepto	400	Expense		400	INR	400
@@ -66,10 +65,8 @@ Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Cur
 19/12/24	not-self-card	Travel		Bus	425	Expense		425	INR	425
 19/12/24	not-self-cash	Food		Pizza	1110	Expense		1110	INR	1110
 19/12/24	self-cash	Grocery		Zepto	400	Expense		400	INR	400
-21/12/24	self-card	Lifestyle		Hyatt-points	6100	Expense		6100	INR	6100
 21/12/24	not-self-card	Grocery		Zepto	226	Expense		226	INR	226
 21/12/24	self-card	Grocery		BB	275	Expense		275	INR	275
-21/12/24	self-card	Gift		Donation	4000	Expense		4000	INR	4000
 21/12/24	self-card	Travel		Auto	71	Expense		71	INR	71
 21/12/24	self-card	Food		Wraffel	375	Expense		375	INR	375
 21/12/24	self-card	Travel		Auto	87	Expense		87	INR	87
@@ -107,8 +104,4 @@ Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Cur
 26/12/24	self-card	Travel		Auto	180	Expense		180	INR	180
 26/12/24	self-cash	Shopping		Vihaan-cloths	650	Expense		650	INR	650
 26/12/24	self-cash	Grocery		Lulu-grocery	650	Expense		650	INR	650
-26/12/24	self-cash	Lifestyle		MangoMist	6700	Expense		6700	INR	6700
-26/12/24	self-card	Lifestyle		MangoMist	28036	Expense		28036	INR	28036
 26/12/24	self-card	Grocery		Amazon-chocolate	408	Expense		408	INR	408
-26/12/24	self-cash	Misc		Akka	10000	Expense		10000	INR	10000
-26/12/24	self-cash	Education		OpenHouse	21000	Expense		21000	INR	21000

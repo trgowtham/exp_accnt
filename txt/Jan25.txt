@@ -1,27 +1,27 @@
 [03/01/25, 10:55:59 AM] E: ‎Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
-[03/01/25, 10:55:59 AM] Gowtham: Youmee 5300
+[03/01/25, 10:55:59 AM] Gowtham: Youmee A5300
 [03/01/25, 10:55:59 AM] Gowtham: Maids 5700
-[03/01/25, 10:56:12 AM] Gowtham: Parking W100
-[03/01/25, 10:56:36 AM] Gowtham: Medical test W6463
-[03/01/25, 5:23:30 PM] Gowtham: Train 2910
-[03/01/25, 5:23:44 PM] Gowtham: Swiggy 2120
+[03/01/25, 10:56:12 AM] Gowtham: Parking WA100
+[03/01/25, 10:56:36 AM] Gowtham: Medical test WA6463
+[03/01/25, 5:23:30 PM] Gowtham: Train A2910
+[03/01/25, 5:23:44 PM] Gowtham: Swiggy A2120
 [06/01/25, 2:15:08 PM] Gowtham: Petrol 3000
-[06/01/25, 2:15:12 PM] Gowtham: Mysore petrol 2000
-[06/01/25, 2:15:31 PM] Gowtham: Mysore palace 850
-[06/01/25, 2:15:39 PM] Gowtham: Sukhvana 1000
-[06/01/25, 2:29:51 PM] Gowtham: Jalpaan 1800
-[06/01/25, 2:37:08 PM] Gowtham: Saswamrutham W267
-[06/01/25, 2:37:23 PM] Gowtham: Coconut W60
+[06/01/25, 2:15:12 PM] Gowtham: Mysore petrol A2000
+[06/01/25, 2:15:31 PM] Gowtham: Mysore palace A850
+[06/01/25, 2:15:39 PM] Gowtham: Sukhvana A1000
+[06/01/25, 2:29:51 PM] Gowtham: Jalpaan A1800
+[06/01/25, 2:37:08 PM] Gowtham: Saswamrutham WA267
+[06/01/25, 2:37:23 PM] Gowtham: Coconut WA60
 [08/01/25, 9:30:55 AM] Gowtham: —— Akka done ——
 [08/01/25, 9:31:00 AM] Gowtham: Swiggy 250
 [08/01/25, 9:31:48 AM] Gowtham: Medicine 1820 A1500
-[08/01/25, 9:32:07 AM] Gowtham: Tata play WA4037
+[08/01/25, 9:32:07 AM] Gowtham: Annually Tata play WA4037
 [08/01/25, 9:51:34 AM] Gowtham: gas 350
 [09/01/25, 11:43:37 AM] Gowtham: Shankar 350 A1500
 [09/01/25, 7:02:07 PM] Gowtham: Act broadband 300
 [10/01/25, 8:38:02 AM] Gowtham: Movie W1158
 [11/01/25, 9:27:24 AM] Gowtham: Plumber 200
-[11/01/25, 1:03:07 PM] Gowtham: School fees W22142
+[11/01/25, 1:03:07 PM] Gowtham: Annually School fees W22142
 [11/01/25, 2:15:33 PM] Gowtham: Bigbasket W1000 WA2358
 [11/01/25, 6:54:27 PM] Mythri: Auto 150
 [11/01/25, 6:54:40 PM] Mythri: Namadari food 747
@@ -36,7 +36,7 @@
 [18/01/25, 5:39:28 PM] Mythri: Food 600
 [18/01/25, 5:39:28 PM] Mythri: Auto W130
 [19/01/25, 5:26:53 PM] Mythri: Auto W130
-[20/01/25, 7:41:36 AM] Gowtham: Mobile recharge WA1999
+[20/01/25, 7:41:36 AM] Gowtham: Annually Mobile recharge WA1999
 [20/01/25, 7:41:42 AM] Gowtham: Bigbasket WA332
 [20/01/25, 7:42:15 AM] Gowtham: Auto 200
 [20/01/25, 7:42:28 AM] Gowtham: Panipuri A80

@@ -1,7 +1,7 @@
 Summary of Dec24.txt
 
-self-cash : 83767
-self-card : 57864
+self-cash : 46067
+self-card : 15143
 not-self-cash : 10025
 not-self-card : 5701
 
@@ -26,16 +26,16 @@ Grocery - not-self-cash : 5179
 Grocery - not-self-card : 2809
 
 Utility - self-cash : 6240
-Utility - self-card : 4585
+Utility - self-card : 0
 Utility - not-self-cash : 0
 Utility - not-self-card : 0
 
-Education - self-cash : 21000
+Education - self-cash : 0
 Education - self-card : 1727
 Education - not-self-cash : 0
 Education - not-self-card : 0
 
-Misc - self-cash : 14977
+Misc - self-cash : 4977
 Misc - self-card : 0
 Misc - not-self-cash : 0
 Misc - not-self-card : 0
@@ -45,24 +45,18 @@ Shopping - self-card : 329
 Shopping - not-self-cash : 0
 Shopping - not-self-card : 0
 
-Lifestyle - self-cash : 15870
-Lifestyle - self-card : 34181
+Lifestyle - self-cash : 9170
+Lifestyle - self-card : 45
 Lifestyle - not-self-cash : 1910
 Lifestyle - not-self-card : 0
-
-Gift - self-cash : 0
-Gift - self-card : 4000
-Gift - not-self-cash : 0
-Gift - not-self-card : 0
 
 Health : 2091
 Food : 17075
 Travel : 9249
 Grocery : 19173
-Utility : 10825
-Education : 22727
-Misc : 14977
+Utility : 6240
+Education : 1727
+Misc : 4977
 Shopping : 5279
-Lifestyle : 51961
-Gift : 4000
-Total : 157357
+Lifestyle : 11125
+Total : 76936

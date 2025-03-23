@@ -42,7 +42,33 @@ process_stage2(process_stg1, process_stg2)
 process_stg3 = []
 process_stage3(process_stg2, process_stg3, tsv_file_name)
 
+annual_txn = []
+for ln in process_stg3:
+	if "Annually" in ln[3] or "annually" in ln[3]:
+		annual_txn.append( ln )
+
+# Remove annual_txn from process_stg3
+tmp = [row for row in process_stg3 if not any("Annually" in str(cell) or "Anually" in str(cell) for cell in row)]
+process_stg3[:] = tmp
+
 # All processing done. Just write summary files
+# Write annual_txn to csv
+ann_file = "gen/Annual.txt"
+with open( ann_file, 'r', newline='', encoding='utf-8') as csvfile:
+	csv_reader = csv.reader(csvfile)
+	existing_rows = [row for row in csv_reader]
+
+rows_to_add = []
+for row in annual_txn:
+	if row not in existing_rows:
+		rows_to_add.append(row)
+
+if rows_to_add:
+	with open(ann_file, 'a', newline='', encoding='utf-8') as csvfile:
+		csv_writer = csv.writer(csvfile)
+		csv_writer.writerows(rows_to_add)
+
+
 # Write the data to CSV file
 print( "Writing to", csv_file_name )
 with open(csv_file_name, 'w', newline='') as output_file:
@@ -96,15 +122,15 @@ with open( summary_file, 'w') as sum_file:
 # Write ALL summary file
 total=0
 white=0
-amma=0
-for ln in process_stg2:
-	if ln[2] == 'not-self':
-		amma = amma + int(ln[3])
-	if ln[4] == 'card':
-		white = white + int(ln[3])
-	total = total + int(ln[3])
+others=0
+for ln in process_stg3:
+	if 'not' in ln[1]:
+		others = others + int(ln[4])
+	if 'card' in ln[1]:
+		white = white + int(ln[4])
+	total = total + int(ln[4])
 
-sum_line = f'Total {total} White {white} Amma {amma}'
+sum_line = f'Total {total} White {white} Others {others}'
 
 all_sum = "gen/Summary.txt"
 with open( all_sum, 'r' ) as f:

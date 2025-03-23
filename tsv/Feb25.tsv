@@ -29,8 +29,6 @@ Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Cur
 04/02/25	self-cash	Lifestyle		Fatafat	170	Expense		170	INR	170
 04/02/25	self-cash	Food		Benne-dosa	400	Expense		400	INR	400
 05/02/25	self-cash	Food		Anand	270	Expense		270	INR	270
-05/02/25	not-self-card	Utility		UIIC-parents	59953	Expense		59953	INR	59953
-05/02/25	self-card	Utility		UIIC-family	19184	Expense		19184	INR	19184
 05/02/25	self-card	Utility		ACT	300	Expense		300	INR	300
 05/02/25	self-card	Grocery		BigBasket	1728	Expense		1728	INR	1728
 05/02/25	not-self-card	Grocery		BigBasket	586	Expense		586	INR	586
@@ -39,7 +37,6 @@ Date	Account	Category	Subcategory	Note	INR	Income/Expense	Description	Amount	Cur
 05/02/25	self-card	Shopping		Cross-world	159	Expense		159	INR	159
 05/02/25	self-card	Travel		Auto	146	Expense		146	INR	146
 06/02/25	self-cash	Travel		Auto	247	Expense		247	INR	247
-06/02/25	self-cash	Lifestyle		Honda-car-service	14020	Expense		14020	INR	14020
 06/02/25	self-cash	Shopping		Stationary	430	Expense		430	INR	430
 07/02/25	self-cash	Food		Milano	480	Expense		480	INR	480
 08/02/25	self-cash	Food		Pump-house	3000	Expense		3000	INR	3000

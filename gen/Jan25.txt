@@ -1,33 +1,33 @@
 Summary of Jan25.txt
 
-self-cash : 43580
-self-card : 40582
-not-self-cash : 14668
-not-self-card : 10486
+self-cash : 27600
+self-card : 11550
+not-self-cash : 30648
+not-self-card : 11340
 
-Food - self-cash : 12436
-Food - self-card : 3610
-Food - not-self-cash : 465
-Food - not-self-card : 0
+Food - self-cash : 3216
+Food - self-card : 3550
+Food - not-self-cash : 9685
+Food - not-self-card : 60
 
 Utility - self-cash : 7550
 Utility - self-card : 1297
 Utility - not-self-cash : 0
-Utility - not-self-card : 6036
+Utility - not-self-card : 0
 
-Travel - self-cash : 11323
-Travel - self-card : 762
-Travel - not-self-cash : 0
-Travel - not-self-card : 418
+Travel - self-cash : 6413
+Travel - self-card : 662
+Travel - not-self-cash : 4910
+Travel - not-self-card : 518
 
 Health - self-cash : 3170
-Health - self-card : 6730
+Health - self-card : 0
 Health - not-self-cash : 9728
-Health - not-self-card : 0
+Health - not-self-card : 6730
 
-Lifestyle - self-cash : 2000
+Lifestyle - self-cash : 150
 Lifestyle - self-card : 1933
-Lifestyle - not-self-cash : 0
+Lifestyle - not-self-cash : 1850
 Lifestyle - not-self-card : 0
 
 Grocery - self-cash : 5261
@@ -40,23 +40,23 @@ Misc - self-card : 0
 Misc - not-self-cash : 0
 Misc - not-self-card : 0
 
-Education - self-cash : 0
-Education - self-card : 22308
-Education - not-self-cash : 0
-Education - not-self-card : 0
-
 Shopping - self-cash : 1240
 Shopping - self-card : 0
 Shopping - not-self-cash : 600
 Shopping - not-self-card : 0
 
+Education - self-cash : 0
+Education - self-card : 166
+Education - not-self-cash : 0
+Education - not-self-card : 0
+
 Food : 16511
-Utility : 14883
+Utility : 8847
 Travel : 12503
 Health : 19628
 Lifestyle : 3933
 Grocery : 17110
 Misc : 600
-Education : 22308
 Shopping : 1840
-Total : 109316
+Education : 166
+Total : 81138
