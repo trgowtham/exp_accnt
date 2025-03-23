@@ -1,109 +1,109 @@
-Date,Name,Person,Amount,Type
-02/02/25,Pan cake,self,372,cash
-02/02/25,Auto,self,125,card
-02/02/25,Urben clap,self,900,cash
-02/02/25,Petrol,self,2000,cash
-02/02/25,Tol,self,555,card
-02/02/25,Amudham,self,405,cash
-03/02/25,Burrito,self,500,cash
-03/02/25,Burrito,self,85,card
-03/02/25,Airport parking,self,150,cash
-03/02/25,Airport parking,self,150,card
-03/02/25,Blinkit,self,100,card
-03/02/25,Blinkit,not-self,126,card
-03/02/25,Toll,self,170,card
-03/02/25,Petrol,self,3500,cash
-03/02/25,Fruits,self,270,cash
-03/02/25,Hair oil,self,520,cash
-03/02/25,Maids,self,4700,cash
-03/02/25,Maids,self,1000,card
-04/02/25,Idly,self,105,cash
-04/02/25,Veggies,self,587,cash
-04/02/25,Shofr taxi,self,1315,card
-04/02/25,Lulu,self,1077,cash
-04/02/25,Swiggy Meghana,self,1020,cash
-04/02/25,Juice,self,83,card
-04/02/25,Raymond bava,self,399,card
-04/02/25,Toll,self,90,card
-04/02/25,BDA,self,130,cash
-04/02/25,Fatafat,self,170,cash
-04/02/25,Benne dosa,self,400,cash
-05/02/25,Anand,self,270,cash
-05/02/25,UIIC parents,not-self,59953,card
-05/02/25,UIIC family,self,19184,card
-05/02/25,ACT,self,300,card
-05/02/25,BigBasket,self,1728,card
-05/02/25,BigBasket,not-self,586,card
-05/02/25,Dakshintindi,self,140,card
-05/02/25,Cross world,self,240,cash
-05/02/25,Cross world,self,159,card
-05/02/25,Auto,self,146,card
-06/02/25,Auto,self,247,cash
-06/02/25,Honda car service,self,14020,cash
-06/02/25,Stationary,self,430,cash
-07/02/25,Milano,self,480,cash
-08/02/25,Pump house,self,3000,cash
-08/02/25,Naamdhaari,self,100,cash
-08/02/25,Kumbakonam coffee,not-self,900,cash
-08/02/25,Bfast,self,138,card
-09/02/25,Blinkit,self,500,cash
-09/02/25,Blinkit,not-self,1500,cash
-09/02/25,Royal Mart,self,200,cash
-09/02/25,Royal Mart,not-self,800,cash
-11/02/25,Atithi,self,210,cash
-11/02/25,Zepto,self,1005,cash
-11/02/25,Petrol,self,3500,cash
-12/02/25,Swiggy Insta,self,1020,cash
-12/02/25,Gas,self,435,cash
-13/02/25,Dakshin thindi,self,265,cash
-13/02/25,Big basket,self,120,card
-13/02/25,Big basket,not-self,210,card
-13/02/25,Swiggy food,self,500,cash
-13/02/25,Parking,self,150,cash
-13/02/25,Parking,self,73,card
-13/02/25,Passport,self,2500,card
-15/02/25,Files and vasavi,self,1000,cash
-15/02/25,Eye brow pencil,self,800,cash
-15/02/25,Auto,self,70,card
-15/02/25,Pizzahut,self,393,card
-15/02/25,Car wash,self,400,cash
-15/02/25,Petrol,self,1870,cash
-16/02/25,Food,self,317,cash
-16/02/25,Grocery,self,979,cash
-16/02/25,Auto,self,220,cash
-16/02/25,Coconut,self,60,cash
-17/02/25,Groceries,self,1931,cash
-17/02/25,Groceries,not-self,1200,cash
-19/02/25,Amazon bed bug,self,279,card
-19/02/25,Blinkit,self,900,cash
-19/02/25,Blinkit,not-self,201,cash
-19/02/25,Auto,self,50,cash
-19/02/25,Auto,self,52,card
-19/02/25,Swiggy Instamart,not-self,267,card
-20/02/25,swiggy rasmalai,not-self,413,card
-20/02/25,whole truth,self,890,cash
-20/02/25,Auto,not-self,56,card
-20/02/25,Shampoo,not-self,250,cash
-20/02/25,Wood medicine,self,700,cash
-20/02/25,Petrol,self,3400,cash
-20/02/25,Flowers,self,90,cash
-20/02/25,AZ paan,self,267,card
-21/02/25,Blink it,self,610,cash
-22/02/25,Ikea metro,self,200,cash
-22/02/25,Ikea,self,1500,cash
-22/02/25,Auto,self,347,cash
-22/02/25,Ikea food,self,670,cash
-23/02/25,Breakfast cricket,self,230,card
-23/02/25,Smoor,self,1200,cash
-23/02/25,Auto,self,65,card
-24/02/25,Thatte idly,self,145,cash
-25/02/25,Veggies and shoprite,self,250,cash
-25/02/25,Veggies and shoprite,not-self,100,cash
-26/02/25,Breakfast,self,204,card
-27/02/25,Veggies,self,40,cash
-27/02/25,Veggies,not-self,500,cash
-27/02/25,Sagar,not-self,650,cash
-27/02/25,Amazon,not-self,1140,card
-27/02/25,Blr Kumarans,self,750,cash
-27/02/25,Auto,self,190,cash
-27/02/25,Parlour,self,3500,cash
+Date,Account,Category,Description,Amount
+02/02/25,self-cash,Food,Pan-cake,372
+02/02/25,self-card,Travel,Auto,125
+02/02/25,self-cash,Lifestyle,Urben-clap,900
+02/02/25,self-cash,Travel,Petrol,2000
+02/02/25,self-card,Travel,Tol,555
+02/02/25,self-cash,Food,Amudham,405
+03/02/25,self-cash,Food,Burrito,500
+03/02/25,self-card,Food,Burrito,85
+03/02/25,self-cash,Travel,Airport-parking,150
+03/02/25,self-card,Travel,Airport-parking,150
+03/02/25,self-card,Grocery,Blinkit,100
+03/02/25,not-self-card,Grocery,Blinkit,126
+03/02/25,self-card,Travel,Toll,170
+03/02/25,self-cash,Travel,Petrol,3500
+03/02/25,self-cash,Grocery,Fruits,270
+03/02/25,self-cash,Grocery,Hair-oil,520
+03/02/25,self-cash,Utility,Maids,4700
+03/02/25,self-card,Utility,Maids,1000
+04/02/25,self-cash,Food,Idly,105
+04/02/25,self-cash,Grocery,Veggies,587
+04/02/25,self-card,Lifestyle,Shofr-taxi,1315
+04/02/25,self-cash,Grocery,Lulu,1077
+04/02/25,self-cash,Food,Swiggy-Meghana,1020
+04/02/25,self-card,Food,Juice,83
+04/02/25,self-card,Shopping,Raymond-bava,399
+04/02/25,self-card,Travel,Toll,90
+04/02/25,self-cash,Lifestyle,BDA,130
+04/02/25,self-cash,Lifestyle,Fatafat,170
+04/02/25,self-cash,Food,Benne-dosa,400
+05/02/25,self-cash,Food,Anand,270
+05/02/25,not-self-card,Utility,UIIC-parents,59953
+05/02/25,self-card,Utility,UIIC-family,19184
+05/02/25,self-card,Utility,ACT,300
+05/02/25,self-card,Grocery,BigBasket,1728
+05/02/25,not-self-card,Grocery,BigBasket,586
+05/02/25,self-card,Food,Dakshintindi,140
+05/02/25,self-cash,Shopping,Cross-world,240
+05/02/25,self-card,Shopping,Cross-world,159
+05/02/25,self-card,Travel,Auto,146
+06/02/25,self-cash,Travel,Auto,247
+06/02/25,self-cash,Lifestyle,Honda-car-service,14020
+06/02/25,self-cash,Shopping,Stationary,430
+07/02/25,self-cash,Food,Milano,480
+08/02/25,self-cash,Food,Pump-house,3000
+08/02/25,self-cash,Food,Naamdhaari,100
+08/02/25,not-self-cash,Grocery,Kumbakonam-coffee,900
+08/02/25,self-card,Food,Bfast,138
+09/02/25,self-cash,Grocery,Blinkit,500
+09/02/25,not-self-cash,Grocery,Blinkit,1500
+09/02/25,self-cash,Grocery,Royal-Mart,200
+09/02/25,not-self-cash,Grocery,Royal-Mart,800
+11/02/25,self-cash,Food,Atithi,210
+11/02/25,self-cash,Grocery,Zepto,1005
+11/02/25,self-cash,Travel,Petrol,3500
+12/02/25,self-cash,Grocery,Swiggy-Insta,1020
+12/02/25,self-cash,Utility,Gas,435
+13/02/25,self-cash,Food,Dakshin-thindi,265
+13/02/25,self-card,Grocery,Big-basket,120
+13/02/25,not-self-card,Grocery,Big-basket,210
+13/02/25,self-cash,Food,Swiggy-food,500
+13/02/25,self-cash,Travel,Parking,150
+13/02/25,self-card,Travel,Parking,73
+13/02/25,self-card,Lifestyle,Passport,2500
+15/02/25,self-cash,Grocery,Files-and-vasavi,1000
+15/02/25,self-cash,Shopping,Eye-brow-pencil,800
+15/02/25,self-card,Travel,Auto,70
+15/02/25,self-card,Food,Pizzahut,393
+15/02/25,self-cash,Lifestyle,Car-wash,400
+15/02/25,self-cash,Travel,Petrol,1870
+16/02/25,self-cash,Food,Food,317
+16/02/25,self-cash,Grocery,Grocery,979
+16/02/25,self-cash,Travel,Auto,220
+16/02/25,self-cash,Food,Coconut,60
+17/02/25,self-cash,Grocery,Groceries,1931
+17/02/25,not-self-cash,Grocery,Groceries,1200
+19/02/25,self-card,Grocery,Amazon-bed-bug,279
+19/02/25,self-cash,Grocery,Blinkit,900
+19/02/25,not-self-cash,Grocery,Blinkit,201
+19/02/25,self-cash,Travel,Auto,50
+19/02/25,self-card,Travel,Auto,52
+19/02/25,not-self-card,Grocery,Swiggy-Instamart,267
+20/02/25,not-self-card,Food,swiggy-rasmalai,413
+20/02/25,self-cash,Grocery,whole-truth,890
+20/02/25,not-self-card,Travel,Auto,56
+20/02/25,not-self-cash,Grocery,Shampoo,250
+20/02/25,self-cash,Grocery,Wood-medicine,700
+20/02/25,self-cash,Travel,Petrol,3400
+20/02/25,self-cash,Grocery,Flowers,90
+20/02/25,self-card,Grocery,AZ-paan,267
+21/02/25,self-cash,Grocery,Blink-it,610
+22/02/25,self-cash,Travel,Ikea-metro,200
+22/02/25,self-cash,Shopping,Ikea,1500
+22/02/25,self-cash,Travel,Auto,347
+22/02/25,self-cash,Food,Ikea-food,670
+23/02/25,self-card,Food,Breakfast-cricket,230
+23/02/25,self-cash,Food,Smoor,1200
+23/02/25,self-card,Travel,Auto,65
+24/02/25,self-cash,Food,Thatte-idly,145
+25/02/25,self-cash,Grocery,Veggies-and-shoprite,250
+25/02/25,not-self-cash,Grocery,Veggies-and-shoprite,100
+26/02/25,self-card,Food,Breakfast,204
+27/02/25,self-cash,Grocery,Veggies,40
+27/02/25,not-self-cash,Grocery,Veggies,500
+27/02/25,not-self-cash,Health,Sagar,650
+27/02/25,not-self-card,Grocery,Amazon,1140
+27/02/25,self-cash,Food,Blr-Kumarans,750
+27/02/25,self-cash,Travel,Auto,190
+27/02/25,self-cash,Lifestyle,Parlour,3500

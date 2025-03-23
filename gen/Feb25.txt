@@ -1,0 +1,50 @@
+Summary of Feb25.txt
+
+self-cash : 66387
+self-card : 30120
+not-self-cash : 6101
+not-self-card : 62751
+
+Food - self-cash : 10769
+Food - self-card : 1273
+Food - not-self-cash : 0
+Food - not-self-card : 413
+
+Travel - self-cash : 15824
+Travel - self-card : 1496
+Travel - not-self-cash : 0
+Travel - not-self-card : 56
+
+Lifestyle - self-cash : 19120
+Lifestyle - self-card : 3815
+Lifestyle - not-self-cash : 0
+Lifestyle - not-self-card : 0
+
+Grocery - self-cash : 12569
+Grocery - self-card : 2494
+Grocery - not-self-cash : 5451
+Grocery - not-self-card : 2329
+
+Utility - self-cash : 5135
+Utility - self-card : 20484
+Utility - not-self-cash : 0
+Utility - not-self-card : 59953
+
+Shopping - self-cash : 2970
+Shopping - self-card : 558
+Shopping - not-self-cash : 0
+Shopping - not-self-card : 0
+
+Health - self-cash : 0
+Health - self-card : 0
+Health - not-self-cash : 650
+Health - not-self-card : 0
+
+Food : 12455
+Travel : 17376
+Lifestyle : 22935
+Grocery : 22843
+Utility : 85572
+Shopping : 3528
+Health : 650
+Total : 165359

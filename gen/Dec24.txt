@@ -1,0 +1,68 @@
+Summary of Dec24.txt
+
+self-cash : 83767
+self-card : 57864
+not-self-cash : 10025
+not-self-card : 5701
+
+Health - self-cash : 515
+Health - self-card : 0
+Health - not-self-cash : 1576
+Health - not-self-card : 0
+
+Food - self-cash : 8990
+Food - self-card : 4258
+Food - not-self-cash : 1360
+Food - not-self-card : 2467
+
+Travel - self-cash : 7320
+Travel - self-card : 1504
+Travel - not-self-cash : 0
+Travel - not-self-card : 425
+
+Grocery - self-cash : 3905
+Grocery - self-card : 7280
+Grocery - not-self-cash : 5179
+Grocery - not-self-card : 2809
+
+Utility - self-cash : 6240
+Utility - self-card : 4585
+Utility - not-self-cash : 0
+Utility - not-self-card : 0
+
+Education - self-cash : 21000
+Education - self-card : 1727
+Education - not-self-cash : 0
+Education - not-self-card : 0
+
+Misc - self-cash : 14977
+Misc - self-card : 0
+Misc - not-self-cash : 0
+Misc - not-self-card : 0
+
+Shopping - self-cash : 4950
+Shopping - self-card : 329
+Shopping - not-self-cash : 0
+Shopping - not-self-card : 0
+
+Lifestyle - self-cash : 15870
+Lifestyle - self-card : 34181
+Lifestyle - not-self-cash : 1910
+Lifestyle - not-self-card : 0
+
+Gift - self-cash : 0
+Gift - self-card : 4000
+Gift - not-self-cash : 0
+Gift - not-self-card : 0
+
+Health : 2091
+Food : 17075
+Travel : 9249
+Grocery : 19173
+Utility : 10825
+Education : 22727
+Misc : 14977
+Shopping : 5279
+Lifestyle : 51961
+Gift : 4000
+Total : 157357

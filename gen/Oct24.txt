@@ -1,0 +1,56 @@
+Summary of Oct24.txt
+
+self-cash : 67642
+self-card : 8364
+not-self-cash : 7266
+not-self-card : 1751
+
+Grocery - self-cash : 13197
+Grocery - self-card : 4799
+Grocery - not-self-cash : 5720
+Grocery - not-self-card : 1751
+
+Travel - self-cash : 6890
+Travel - self-card : 892
+Travel - not-self-cash : 0
+Travel - not-self-card : 0
+
+Shopping - self-cash : 19511
+Shopping - self-card : 1665
+Shopping - not-self-cash : 0
+Shopping - not-self-card : 0
+
+Utility - self-cash : 6100
+Utility - self-card : 0
+Utility - not-self-cash : 0
+Utility - not-self-card : 0
+
+Health - self-cash : 1175
+Health - self-card : 0
+Health - not-self-cash : 1016
+Health - not-self-card : 0
+
+Food - self-cash : 13990
+Food - self-card : 751
+Food - not-self-cash : 330
+Food - not-self-card : 0
+
+Lifestyle - self-cash : 6779
+Lifestyle - self-card : 150
+Lifestyle - not-self-cash : 200
+Lifestyle - not-self-card : 0
+
+Gift - self-cash : 0
+Gift - self-card : 107
+Gift - not-self-cash : 0
+Gift - not-self-card : 0
+
+Grocery : 25467
+Travel : 7782
+Shopping : 21176
+Utility : 6100
+Health : 2191
+Food : 15071
+Lifestyle : 7129
+Gift : 107
+Total : 85023

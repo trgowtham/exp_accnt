@@ -1,99 +1,99 @@
-Date,Name,Person,Amount,Type
-01/10/24,AZ,self,3150,card
-01/10/24,BI,self,520,cash
-01/10/24,Auto,self,80,cash
-01/10/24,Auto,self,90,card
-02/10/24,Lego,self,4812,cash
-02/10/24,Maids,self,2500,cash
-02/10/24,Maids,self,3200,cash
-03/10/24,Sagar,not-self,592,cash
-03/10/24,Shoprite,self,133,cash
-03/10/24,Shoprite,not-self,600,cash
-03/10/24,Shankar,self,375,cash
-03/10/24,Shankar,not-self,991,cash
-03/10/24,AZ Fresh,self,1379,card
-03/10/24,AZ Fresh,not-self,1751,card
-04/10/24,Myntra,self,2016,cash
-04/10/24,Ajio,self,2520,cash
-05/10/24,Pancake,self,170,cash
-06/10/24,Vasavi thaddinam,self,270,cash
-06/10/24,Brahmins,self,280,cash
-06/10/24,Babai pan,self,107,card
-06/10/24,Pizza,self,470,cash
-07/10/24,Swiggy,self,540,cash
-08/10/24,Veggies SRite,self,140,cash
-08/10/24,Veggies SRite,not-self,642,cash
-08/10/24,Blinkit,self,540,cash
-08/10/24,AZ citric caustic,self,505,card
-09/10/24,Petrol,self,3000,cash
-09/10/24,Zepto,self,290,cash
-09/10/24,Zepto,not-self,750,cash
-10/10/24,UTK,self,1500,cash
-10/10/24,Funcity,self,2700,cash
-10/10/24,Lulu,self,1632,cash
-10/10/24,SW breakfast,self,262,card
-10/10/24,Icecream,self,68,card
-10/10/24,Parking,self,110,cash
-11/10/24,Saree plus,self,3,cash
-11/10/24,blouse pieces,self,1700,cash
-11/10/24,Auto,self,93,card
-11/10/24,Festival expenses,self,200,cash
-11/10/24,Festival expenses,not-self,200,cash
-11/10/24,Vadibeyam samanlu,self,150,cash
-12/10/24,food,self,660,cash
-12/10/24,Adi Temple,self,610,cash
-14/10/24,Athitya,not-self,330,cash
-14/10/24,Veggies,not-self,110,cash
-14/10/24,Veggies,self,110,cash
-14/10/24,Pizza,self,260,cash
-14/10/24,Gas,self,400,cash
-14/10/24,Zepto,self,510,cash
-16/10/24,Petrol,self,3000,cash
-16/10/24,Threptin,self,1000,cash
-16/10/24,Shoprite,self,500,cash
-16/10/24,Shoprite,not-self,582,cash
-17/10/24,Shoprite,not-self,750,cash
-17/10/24,Sagar,not-self,424,cash
-17/10/24,Bday cake,self,4000,cash
-17/10/24,Pizza advance,self,1000,cash
-17/10/24,Light,not-self,520,cash
-17/10/24,Birth day decor and return gifts,self,3100,cash
-17/10/24,Birth day decor and return gifts,self,1160,card
-17/10/24,Stationary,self,120,cash
-18/10/24,Pencils,self,250,cash
-19/10/24,Swiggy,self,520,cash
-19/10/24,VR game,self,150,card
-20/10/24,Dmart,self,3180,cash
-20/10/24,Pizza,self,1300,cash
-20/10/24,Cake,self,500,cash
-20/10/24,Samosa,self,500,cash
-20/10/24,Cutting,self,1150,cash
-21/10/24,Vasavi,self,900,cash
-21/10/24,Urben clap,self,500,cash
-21/10/24,zepto,self,520,cash
-21/10/24,instant mix,self,370,cash
-21/10/24,Doctor,self,600,cash
-24/10/24,shorts,self,1540,cash
-24/10/24,Zepto,self,602,cash
-24/10/24,Auto,self,165,card
-24/10/24,Doctor dressing,self,285,cash
-26/10/24,Auto,self,131,card
-26/10/24,Megha,self,270,card
-26/10/24,Driver,self,500,cash
-26/10/24,Meghana,self,1210,cash
-26/10/24,Zepto,self,500,cash
-26/10/24,Zepto,not-self,500,cash
-27/10/24,Food,self,376,card
-27/10/24,Auto,self,163,card
-27/10/24,Auto,self,70,cash
-28/10/24,Swiggy,self,530,cash
-29/10/24,Swiggy,self,550,cash
-29/10/24,Auto,self,130,cash
-29/10/24,Auto,self,150,card
-29/10/24,Auto,self,100,card
-29/10/24,Doctor,self,290,cash
-31/10/24,Blinkit,self,1225,cash
-31/10/24,Blinkit,not-self,275,cash
-31/10/24,Crackers,self,3450,cash
-31/10/24,Bda,self,1349,cash
-31/10/24,Cane juice,self,45,card
+Date,Account,Category,Description,Amount
+01/10/24,self-card,Grocery,AZ,3150
+01/10/24,self-cash,Grocery,BI,520
+01/10/24,self-cash,Travel,Auto,80
+01/10/24,self-card,Travel,Auto,90
+02/10/24,self-cash,Shopping,Lego,4812
+02/10/24,self-cash,Utility,Maids,2500
+02/10/24,self-cash,Utility,Maids,3200
+03/10/24,not-self-cash,Health,Sagar,592
+03/10/24,self-cash,Grocery,Shoprite,133
+03/10/24,not-self-cash,Grocery,Shoprite,600
+03/10/24,self-cash,Grocery,Shankar,375
+03/10/24,not-self-cash,Grocery,Shankar,991
+03/10/24,self-card,Grocery,AZ-Fresh,1379
+03/10/24,not-self-card,Grocery,AZ-Fresh,1751
+04/10/24,self-cash,Shopping,Myntra,2016
+04/10/24,self-cash,Shopping,Ajio,2520
+05/10/24,self-cash,Food,Pancake,170
+06/10/24,self-cash,Lifestyle,Vasavi-thaddinam,270
+06/10/24,self-cash,Food,Brahmins,280
+06/10/24,self-card,Gift,Babai-pan,107
+06/10/24,self-cash,Food,Pizza,470
+07/10/24,self-cash,Food,Swiggy,540
+08/10/24,self-cash,Grocery,Veggies-SRite,140
+08/10/24,not-self-cash,Grocery,Veggies-SRite,642
+08/10/24,self-cash,Grocery,Blinkit,540
+08/10/24,self-card,Shopping,AZ-citric-caustic,505
+09/10/24,self-cash,Travel,Petrol,3000
+09/10/24,self-cash,Grocery,Zepto,290
+09/10/24,not-self-cash,Grocery,Zepto,750
+10/10/24,self-cash,Food,UTK,1500
+10/10/24,self-cash,Lifestyle,Funcity,2700
+10/10/24,self-cash,Grocery,Lulu,1632
+10/10/24,self-card,Food,SW-breakfast,262
+10/10/24,self-card,Food,Icecream,68
+10/10/24,self-cash,Travel,Parking,110
+11/10/24,self-cash,Shopping,Saree-plus,3
+11/10/24,self-cash,Shopping,blouse-pieces,1700
+11/10/24,self-card,Travel,Auto,93
+11/10/24,self-cash,Lifestyle,Festival-expenses,200
+11/10/24,not-self-cash,Lifestyle,Festival-expenses,200
+11/10/24,self-cash,Grocery,Vadibeyam-samanlu,150
+12/10/24,self-cash,Food,food,660
+12/10/24,self-cash,Lifestyle,Adi-Temple,610
+14/10/24,not-self-cash,Food,Athitya,330
+14/10/24,not-self-cash,Grocery,Veggies,110
+14/10/24,self-cash,Grocery,Veggies,110
+14/10/24,self-cash,Food,Pizza,260
+14/10/24,self-cash,Utility,Gas,400
+14/10/24,self-cash,Grocery,Zepto,510
+16/10/24,self-cash,Travel,Petrol,3000
+16/10/24,self-cash,Grocery,Threptin,1000
+16/10/24,self-cash,Grocery,Shoprite,500
+16/10/24,not-self-cash,Grocery,Shoprite,582
+17/10/24,not-self-cash,Grocery,Shoprite,750
+17/10/24,not-self-cash,Health,Sagar,424
+17/10/24,self-cash,Food,Bday-cake,4000
+17/10/24,self-cash,Food,Pizza-advance,1000
+17/10/24,not-self-cash,Grocery,Light,520
+17/10/24,self-cash,Shopping,Birth-day-decor-and-return-gifts,3100
+17/10/24,self-card,Shopping,Birth-day-decor-and-return-gifts,1160
+17/10/24,self-cash,Shopping,Stationary,120
+18/10/24,self-cash,Shopping,Pencils,250
+19/10/24,self-cash,Food,Swiggy,520
+19/10/24,self-card,Lifestyle,VR-game,150
+20/10/24,self-cash,Grocery,Dmart,3180
+20/10/24,self-cash,Food,Pizza,1300
+20/10/24,self-cash,Food,Cake,500
+20/10/24,self-cash,Food,Samosa,500
+20/10/24,self-cash,Lifestyle,Cutting,1150
+21/10/24,self-cash,Grocery,Vasavi,900
+21/10/24,self-cash,Lifestyle,Urben-clap,500
+21/10/24,self-cash,Grocery,zepto,520
+21/10/24,self-cash,Grocery,instant-mix,370
+21/10/24,self-cash,Health,Doctor,600
+24/10/24,self-cash,Shopping,shorts,1540
+24/10/24,self-cash,Grocery,Zepto,602
+24/10/24,self-card,Travel,Auto,165
+24/10/24,self-cash,Health,Doctor-dressing,285
+26/10/24,self-card,Travel,Auto,131
+26/10/24,self-card,Grocery,Megha,270
+26/10/24,self-cash,Travel,Driver,500
+26/10/24,self-cash,Food,Meghana,1210
+26/10/24,self-cash,Grocery,Zepto,500
+26/10/24,not-self-cash,Grocery,Zepto,500
+27/10/24,self-card,Food,Food,376
+27/10/24,self-card,Travel,Auto,163
+27/10/24,self-cash,Travel,Auto,70
+28/10/24,self-cash,Food,Swiggy,530
+29/10/24,self-cash,Food,Swiggy,550
+29/10/24,self-cash,Travel,Auto,130
+29/10/24,self-card,Travel,Auto,150
+29/10/24,self-card,Travel,Auto,100
+29/10/24,self-cash,Health,Doctor,290
+31/10/24,self-cash,Grocery,Blinkit,1225
+31/10/24,not-self-cash,Grocery,Blinkit,275
+31/10/24,self-cash,Shopping,Crackers,3450
+31/10/24,self-cash,Lifestyle,Bda,1349
+31/10/24,self-card,Food,Cane-juice,45

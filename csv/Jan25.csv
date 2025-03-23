@@ -1,86 +1,86 @@
-Date,Name,Person,Amount,Type
-03/01/25,Youmee,self,5300,cash
-03/01/25,Maids,self,5700,cash
-03/01/25,Parking,self,100,card
-03/01/25,Medical test,self,6463,card
-03/01/25,Train,self,2910,cash
-03/01/25,Swiggy,self,2120,cash
-06/01/25,Petrol,self,3000,cash
-06/01/25,Mysore petrol,self,2000,cash
-06/01/25,Mysore palace,self,850,cash
-06/01/25,Sukhvana,self,1000,cash
-06/01/25,Jalpaan,self,1800,cash
-06/01/25,Saswamrutham,self,267,card
-06/01/25,Coconut,self,60,card
-08/01/25,Swiggy,self,250,cash
-08/01/25,Medicine,self,1820,cash
-08/01/25,Medicine,not-self,1500,cash
-08/01/25,Tata play,not-self,4037,card
-08/01/25,gas,self,350,cash
-09/01/25,Shankar,self,350,cash
-09/01/25,Shankar,not-self,1500,cash
-09/01/25,Act broadband,self,300,cash
-10/01/25,Movie,self,1158,card
-11/01/25,Plumber,self,200,cash
-11/01/25,School fees,self,22142,card
-11/01/25,Bigbasket,self,1000,card
-11/01/25,Bigbasket,not-self,2358,card
-11/01/25,Auto,self,150,cash
-11/01/25,Namadari food,self,747,cash
-11/01/25,Auto,self,63,cash
-12/01/25,Parking,self,90,card
-14/01/25,Sankranti veggies Shoprite,self,810,cash
-14/01/25,Sankranti veggies Shoprite,not-self,1500,cash
-14/01/25,Blouse piece,self,240,cash
-14/01/25,Blouse piece,not-self,600,cash
-15/01/25,Blinkit,self,410,cash
-15/01/25,Blinkit,not-self,100,cash
-15/01/25,Zepto,self,342,card
-15/01/25,Zepto,not-self,600,card
-16/01/25,Sagar lab,not-self,592,cash
-16/01/25,Zepto,self,1500,card
-16/01/25,Zepto,not-self,155,card
-18/01/25,Food,self,600,cash
-18/01/25,Auto,self,130,card
-19/01/25,Auto,self,130,card
-20/01/25,Mobile recharge,not-self,1999,card
-20/01/25,Bigbasket,not-self,332,card
-20/01/25,Auto,self,200,cash
-20/01/25,Panipuri,not-self,80,cash
-20/01/25,House of common MTR,self,3000,card
-20/01/25,Veggies,not-self,300,cash
-20/01/25,BB,self,1100,card
-20/01/25,BB,not-self,119,card
-20/01/25,Plumber,self,400,cash
-20/01/25,Blinkit,self,520,cash
-22/01/25,Medicines,self,1350,cash
-22/01/25,Medicines,not-self,7212,cash
-22/01/25,Petrol,self,3000,cash
-22/01/25,Masala Puri,not-self,185,cash
-22/01/25,La Pinos,self,320,cash
-22/01/25,Amazon color mythri,self,166,card
-24/01/25,Blinkit,not-self,222,card
-25/01/25,Fruits,not-self,475,cash
-25/01/25,Taco,self,594,cash
-25/01/25,Uber,not-self,162,card
-25/01/25,Lulu,self,601,cash
-25/01/25,Parking,self,90,card
-25/01/25,Prayag Annual day,self,775,card
-25/01/25,Namadhaari,self,1000,cash
-25/01/25,Azorte vihaan shirts,self,1000,cash
-25/01/25,pizza,self,300,cash
-26/01/25,Car cleaner,self,1200,cash
-26/01/25,Swiggy icecream,self,300,cash
-26/01/25,Swiggy icecream,not-self,200,cash
-27/01/25,Airtel,self,1297,card
-27/01/25,Instamart,self,650,cash
-28/01/25,Blinkit,self,520,cash
-28/01/25,Cab,not-self,256,card
-29/01/25,Pizza,self,550,card
-29/01/25,Auto,self,62,card
-30/01/25,Sagar,not-self,424,cash
-30/01/25,Idly,self,105,cash
-30/01/25,Blinkit,self,400,cash
-31/01/25,Auto,self,160,card
-31/01/25,Big basket,not-self,246,card
-31/01/25,Haircut,self,150,cash
+Date,Account,Category,Description,Amount
+03/01/25,self-cash,Food,Youmee,5300
+03/01/25,self-cash,Utility,Maids,5700
+03/01/25,self-card,Travel,Parking,100
+03/01/25,self-card,Health,Medical-test,6463
+03/01/25,self-cash,Travel,Train,2910
+03/01/25,self-cash,Food,Swiggy,2120
+06/01/25,self-cash,Travel,Petrol,3000
+06/01/25,self-cash,Travel,Mysore-petrol,2000
+06/01/25,self-cash,Lifestyle,Mysore-palace,850
+06/01/25,self-cash,Lifestyle,Sukhvana,1000
+06/01/25,self-cash,Food,Jalpaan,1800
+06/01/25,self-card,Health,Saswamrutham,267
+06/01/25,self-card,Food,Coconut,60
+08/01/25,self-cash,Food,Swiggy,250
+08/01/25,self-cash,Health,Medicine,1820
+08/01/25,not-self-cash,Health,Medicine,1500
+08/01/25,not-self-card,Utility,Tata-play,4037
+08/01/25,self-cash,Utility,gas,350
+09/01/25,self-cash,Grocery,Shankar,350
+09/01/25,not-self-cash,Grocery,Shankar,1500
+09/01/25,self-cash,Utility,Act-broadband,300
+10/01/25,self-card,Lifestyle,Movie,1158
+11/01/25,self-cash,Misc,Plumber,200
+11/01/25,self-card,Education,School-fees,22142
+11/01/25,self-card,Grocery,Bigbasket,1000
+11/01/25,not-self-card,Grocery,Bigbasket,2358
+11/01/25,self-cash,Travel,Auto,150
+11/01/25,self-cash,Food,Namadari-food,747
+11/01/25,self-cash,Travel,Auto,63
+12/01/25,self-card,Travel,Parking,90
+14/01/25,self-cash,Grocery,Sankranti-veggies-Shoprite,810
+14/01/25,not-self-cash,Grocery,Sankranti-veggies-Shoprite,1500
+14/01/25,self-cash,Shopping,Blouse-piece,240
+14/01/25,not-self-cash,Shopping,Blouse-piece,600
+15/01/25,self-cash,Grocery,Blinkit,410
+15/01/25,not-self-cash,Grocery,Blinkit,100
+15/01/25,self-card,Grocery,Zepto,342
+15/01/25,not-self-card,Grocery,Zepto,600
+16/01/25,not-self-cash,Health,Sagar-lab,592
+16/01/25,self-card,Grocery,Zepto,1500
+16/01/25,not-self-card,Grocery,Zepto,155
+18/01/25,self-cash,Food,Food,600
+18/01/25,self-card,Travel,Auto,130
+19/01/25,self-card,Travel,Auto,130
+20/01/25,not-self-card,Utility,Mobile-recharge,1999
+20/01/25,not-self-card,Grocery,Bigbasket,332
+20/01/25,self-cash,Travel,Auto,200
+20/01/25,not-self-cash,Food,Panipuri,80
+20/01/25,self-card,Food,House-of-common-MTR,3000
+20/01/25,not-self-cash,Grocery,Veggies,300
+20/01/25,self-card,Grocery,BB,1100
+20/01/25,not-self-card,Grocery,BB,119
+20/01/25,self-cash,Misc,Plumber,400
+20/01/25,self-cash,Grocery,Blinkit,520
+22/01/25,self-cash,Health,Medicines,1350
+22/01/25,not-self-cash,Health,Medicines,7212
+22/01/25,self-cash,Travel,Petrol,3000
+22/01/25,not-self-cash,Food,Masala-Puri,185
+22/01/25,self-cash,Food,La-Pinos,320
+22/01/25,self-card,Education,Amazon-color-mythri,166
+24/01/25,not-self-card,Grocery,Blinkit,222
+25/01/25,not-self-cash,Grocery,Fruits,475
+25/01/25,self-cash,Food,Taco,594
+25/01/25,not-self-card,Travel,Uber,162
+25/01/25,self-cash,Grocery,Lulu,601
+25/01/25,self-card,Travel,Parking,90
+25/01/25,self-card,Lifestyle,Prayag-Annual-day,775
+25/01/25,self-cash,Grocery,Namadhaari,1000
+25/01/25,self-cash,Shopping,Azorte-vihaan-shirts,1000
+25/01/25,self-cash,Food,pizza,300
+26/01/25,self-cash,Utility,Car-cleaner,1200
+26/01/25,self-cash,Food,Swiggy-icecream,300
+26/01/25,not-self-cash,Food,Swiggy-icecream,200
+27/01/25,self-card,Utility,Airtel,1297
+27/01/25,self-cash,Grocery,Instamart,650
+28/01/25,self-cash,Grocery,Blinkit,520
+28/01/25,not-self-card,Travel,Cab,256
+29/01/25,self-card,Food,Pizza,550
+29/01/25,self-card,Travel,Auto,62
+30/01/25,not-self-cash,Health,Sagar,424
+30/01/25,self-cash,Food,Idly,105
+30/01/25,self-cash,Grocery,Blinkit,400
+31/01/25,self-card,Travel,Auto,160
+31/01/25,not-self-card,Grocery,Big-basket,246
+31/01/25,self-cash,Lifestyle,Haircut,150

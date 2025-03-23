@@ -1,0 +1,62 @@
+Summary of Nov24.txt
+
+self-cash : 36680
+self-card : 19376
+not-self-cash : 740
+not-self-card : 1734
+
+Food - self-cash : 9713
+Food - self-card : 400
+Food - not-self-cash : 410
+Food - not-self-card : 0
+
+Health - self-cash : 2345
+Health - self-card : 424
+Health - not-self-cash : 0
+Health - not-self-card : 0
+
+Grocery - self-cash : 5526
+Grocery - self-card : 9916
+Grocery - not-self-cash : 330
+Grocery - not-self-card : 1392
+
+Travel - self-cash : 4220
+Travel - self-card : 2637
+Travel - not-self-cash : 0
+Travel - not-self-card : 342
+
+Lifestyle - self-cash : 5066
+Lifestyle - self-card : 4599
+Lifestyle - not-self-cash : 0
+Lifestyle - not-self-card : 0
+
+Utility - self-cash : 7400
+Utility - self-card : 0
+Utility - not-self-cash : 0
+Utility - not-self-card : 0
+
+Shopping - self-cash : 2080
+Shopping - self-card : 1400
+Shopping - not-self-cash : 0
+Shopping - not-self-card : 0
+
+Education - self-cash : 100
+Education - self-card : 0
+Education - not-self-cash : 0
+Education - not-self-card : 0
+
+Misc - self-cash : 230
+Misc - self-card : 0
+Misc - not-self-cash : 0
+Misc - not-self-card : 0
+
+Food : 10523
+Health : 2769
+Grocery : 17164
+Travel : 7199
+Lifestyle : 9665
+Utility : 7400
+Shopping : 3480
+Education : 100
+Misc : 230
+Total : 58530

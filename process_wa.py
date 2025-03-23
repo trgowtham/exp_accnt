@@ -186,7 +186,7 @@ def stage3_category( cat_dict, csv_data ):
 	else:
 		processed_cat = cat_dict[csv_cat][0]
 
-	print(f"Processed category \"{csv_data}\" as {processed_cat}:{tsv_category[processed_cat]}")
+	#print(f"Processed category \"{csv_data}\" as {processed_cat}:{tsv_category[processed_cat]}")
 	if csv_cat in cat_dict.keys():
 		if cat_dict[csv_cat][0] == processed_cat:
 			cat_dict[csv_cat][1] += 1
@@ -211,8 +211,8 @@ tsv_header = [
 "Account" # 10
 ]
 
-def process_stage3( input_list, tsv_file_name ):
-	output_list = []
+def process_stage3( input_list, output_list, tsv_file_name ):
+	tsv_list = []
 
 	# Open the dict file and load the map
 	# { "category" : [ <category_id> , <category_freq> ]
@@ -239,7 +239,8 @@ def process_stage3( input_list, tsv_file_name ):
 		op_ln[8] = ln[3] #Amount
 		op_ln[9] = "INR"
 		op_ln[10] = ln[3]
-		output_list.append( op_ln )
+		tsv_list.append( op_ln )
+		output_list.append( [ op_ln[0], op_ln[1], op_ln[2], op_ln[4], op_ln[5] ] )
 
 	with open( cat_filename, 'w') as cat_file:
 		for k in cat_dict.keys():
@@ -253,4 +254,4 @@ def process_stage3( input_list, tsv_file_name ):
 
 		# Write the TSV header
 		tsv_writer.writerow( tsv_header )
-		tsv_writer.writerows( output_list )
+		tsv_writer.writerows( tsv_list )

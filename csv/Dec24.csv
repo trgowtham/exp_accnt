@@ -1,114 +1,114 @@
-Date,Name,Person,Amount,Type
-01/12/24,Medicine,self,250,cash
-01/12/24,Medicine,not-self,284,cash
-01/12/24,Nithin,self,925,card
-03/12/24,Auto,self,210,card
-03/12/24,Zepto,self,640,card
-03/12/24,Zepto,not-self,775,card
-03/12/24,Maids,self,5700,cash
-03/12/24,Krishna grand food,self,750,cash
-03/12/24,Files,self,250,card
-04/12/24,Big basket,self,840,card
-04/12/24,Big basket,not-self,812,card
-04/12/24,Electrician,self,3000,cash
-04/12/24,Myntra,self,1230,cash
-04/12/24,Auto,self,110,cash
-05/12/24,Photo,self,977,cash
-05/12/24,Auto,self,83,card
-05/12/24,Cake,self,80,card
-05/12/24,Files,self,250,card
-06/12/24,Visa,self,850,cash
-06/12/24,Food Anand,self,345,cash
-06/12/24,School dress,self,682,card
-06/12/24,Zepto,self,1597,card
-06/12/24,Zepto,not-self,446,card
-08/12/24,Shoprite,not-self,1339,cash
-08/12/24,Shoprite,self,414,cash
-08/12/24,Swiggy snacks,self,417,card
-08/12/24,Swiggy Meghana,self,1210,cash
-09/12/24,Plumber,self,500,cash
-09/12/24,Myntra GT jacket,self,2950,cash
-09/12/24,Parlour,self,3000,cash
-10/12/24,Insurance,self,4585,card
-11/12/24,Gas,self,540,cash
-11/12/24,Zepto,self,952,card
-11/12/24,Zepto,not-self,400,card
-11/12/24,Electrician,self,500,cash
-11/12/24,Auto,self,130,cash
-12/12/24,Sagar blood,not-self,592,cash
-12/12/24,Brahmins idly,self,125,cash
-12/12/24,Auto,self,260,card
-12/12/24,Visa delivery,self,850,cash
-12/12/24,Smoor,self,570,cash
-15/12/24,Zepto,self,1110,card
-15/12/24,Auto,self,63,card
-15/12/24,Namdhaari,self,1126,cash
-15/12/24,Food,self,180,card
-15/12/24,Zepto,not-self,100,card
-15/12/24,Zepto,self,77,card
-15/12/24,Burrito,not-self,387,card
-15/12/24,Parking,self,80,cash
-15/12/24,Orion chilis,self,1400,cash
-15/12/24,Blink it,self,262,card
-15/12/24,Blink it,not-self,50,card
-16/12/24,Go course,self,545,card
-18/12/24,Pindi machine,not-self,20,cash
-18/12/24,Stationery,self,120,cash
-18/12/24,Petrol,self,3500,cash
-18/12/24,Medplus,self,265,cash
-18/12/24,Medplus,not-self,700,cash
-18/12/24,Shoprite,self,150,cash
-18/12/24,Shoprite,not-self,500,cash
-18/12/24,Veggies,not-self,320,cash
-18/12/24,Veggies,self,50,cash
-18/12/24,Subway,self,350,cash
-19/12/24,Amintiri,not-self,2080,card
-19/12/24,Bus,not-self,425,card
-19/12/24,Pizza,not-self,1110,cash
-19/12/24,Zepto,self,400,cash
-21/12/24,Hyatt points,self,6100,card
-21/12/24,Zepto,not-self,226,card
-21/12/24,BB,self,275,card
-21/12/24,Donation,self,4000,card
-21/12/24,Auto,self,71,card
-21/12/24,Wraffel,self,375,card
-21/12/24,Auto,self,87,card
-22/12/24,ZEPTO,self,1119,card
-22/12/24,Masks,self,329,card
-23/12/24,Shetty lunch,self,740,cash
-23/12/24,Coffee,self,271,card
-23/12/24,Toll parking,self,330,card
-23/12/24,Auto,self,110,card
-23/12/24,Bda,not-self,760,cash
-23/12/24,Bda,self,45,card
-23/12/24,Temple,not-self,250,cash
-23/12/24,Temple,self,200,cash
-23/12/24,Bda,not-self,400,cash
-23/12/24,Bda,not-self,500,cash
-23/12/24,Shoprite,not-self,1250,cash
-23/12/24,Shankar,self,350,cash
-23/12/24,Shankar,not-self,350,cash
-24/12/24,Foodcourt,self,1320,cash
-24/12/24,foodcourt,self,282,card
-24/12/24,McD,self,104,card
-24/12/24,Parking,self,110,card
-24/12/24,Lulu,self,165,cash
-24/12/24,Lulu,not-self,1400,cash
-25/12/24,Idly,not-self,250,cash
-25/12/24,Fun city,self,3750,cash
-25/12/24,McD frozen,self,1480,cash
-25/12/24,Petrol,self,3500,cash
-25/12/24,Temple,self,520,cash
-25/12/24,Gopalan,self,540,cash
-25/12/24,Burgerking,self,205,card
-25/12/24,Corn goli,self,160,cash
-26/12/24,Zepto,self,600,cash
-26/12/24,Leena,self,1419,card
-26/12/24,Auto,self,180,card
-26/12/24,Vihaan cloths,self,650,cash
-26/12/24,Lulu grocery,self,650,cash
-26/12/24,MangoMist,self,6700,cash
-26/12/24,MangoMist,self,28036,card
-26/12/24,Amazon chocolate,self,408,card
-26/12/24,Akka,self,10000,cash
-26/12/24,OpenHouse,self,21000,cash
+Date,Account,Category,Description,Amount
+01/12/24,self-cash,Health,Medicine,250
+01/12/24,not-self-cash,Health,Medicine,284
+01/12/24,self-card,Food,Nithin,925
+03/12/24,self-card,Travel,Auto,210
+03/12/24,self-card,Grocery,Zepto,640
+03/12/24,not-self-card,Grocery,Zepto,775
+03/12/24,self-cash,Utility,Maids,5700
+03/12/24,self-cash,Food,Krishna-grand-food,750
+03/12/24,self-card,Education,Files,250
+04/12/24,self-card,Grocery,Big-basket,840
+04/12/24,not-self-card,Grocery,Big-basket,812
+04/12/24,self-cash,Misc,Electrician,3000
+04/12/24,self-cash,Shopping,Myntra,1230
+04/12/24,self-cash,Travel,Auto,110
+05/12/24,self-cash,Misc,Photo,977
+05/12/24,self-card,Travel,Auto,83
+05/12/24,self-card,Food,Cake,80
+05/12/24,self-card,Education,Files,250
+06/12/24,self-cash,Lifestyle,Visa,850
+06/12/24,self-cash,Food,Food-Anand,345
+06/12/24,self-card,Education,School-dress,682
+06/12/24,self-card,Grocery,Zepto,1597
+06/12/24,not-self-card,Grocery,Zepto,446
+08/12/24,not-self-cash,Grocery,Shoprite,1339
+08/12/24,self-cash,Grocery,Shoprite,414
+08/12/24,self-card,Food,Swiggy-snacks,417
+08/12/24,self-cash,Food,Swiggy-Meghana,1210
+09/12/24,self-cash,Misc,Plumber,500
+09/12/24,self-cash,Shopping,Myntra-GT-jacket,2950
+09/12/24,self-cash,Lifestyle,Parlour,3000
+10/12/24,self-card,Utility,Insurance,4585
+11/12/24,self-cash,Utility,Gas,540
+11/12/24,self-card,Grocery,Zepto,952
+11/12/24,not-self-card,Grocery,Zepto,400
+11/12/24,self-cash,Misc,Electrician,500
+11/12/24,self-cash,Travel,Auto,130
+12/12/24,not-self-cash,Health,Sagar-blood,592
+12/12/24,self-cash,Food,Brahmins-idly,125
+12/12/24,self-card,Travel,Auto,260
+12/12/24,self-cash,Lifestyle,Visa-delivery,850
+12/12/24,self-cash,Food,Smoor,570
+15/12/24,self-card,Grocery,Zepto,1110
+15/12/24,self-card,Travel,Auto,63
+15/12/24,self-cash,Grocery,Namdhaari,1126
+15/12/24,self-card,Food,Food,180
+15/12/24,not-self-card,Grocery,Zepto,100
+15/12/24,self-card,Grocery,Zepto,77
+15/12/24,not-self-card,Food,Burrito,387
+15/12/24,self-cash,Travel,Parking,80
+15/12/24,self-cash,Food,Orion-chilis,1400
+15/12/24,self-card,Grocery,Blink-it,262
+15/12/24,not-self-card,Grocery,Blink-it,50
+16/12/24,self-card,Education,Go-course,545
+18/12/24,not-self-cash,Grocery,Pindi-machine,20
+18/12/24,self-cash,Shopping,Stationery,120
+18/12/24,self-cash,Travel,Petrol,3500
+18/12/24,self-cash,Health,Medplus,265
+18/12/24,not-self-cash,Health,Medplus,700
+18/12/24,self-cash,Grocery,Shoprite,150
+18/12/24,not-self-cash,Grocery,Shoprite,500
+18/12/24,not-self-cash,Grocery,Veggies,320
+18/12/24,self-cash,Grocery,Veggies,50
+18/12/24,self-cash,Food,Subway,350
+19/12/24,not-self-card,Food,Amintiri,2080
+19/12/24,not-self-card,Travel,Bus,425
+19/12/24,not-self-cash,Food,Pizza,1110
+19/12/24,self-cash,Grocery,Zepto,400
+21/12/24,self-card,Lifestyle,Hyatt-points,6100
+21/12/24,not-self-card,Grocery,Zepto,226
+21/12/24,self-card,Grocery,BB,275
+21/12/24,self-card,Gift,Donation,4000
+21/12/24,self-card,Travel,Auto,71
+21/12/24,self-card,Food,Wraffel,375
+21/12/24,self-card,Travel,Auto,87
+22/12/24,self-card,Grocery,ZEPTO,1119
+22/12/24,self-card,Shopping,Masks,329
+23/12/24,self-cash,Food,Shetty-lunch,740
+23/12/24,self-card,Food,Coffee,271
+23/12/24,self-card,Travel,Toll-parking,330
+23/12/24,self-card,Travel,Auto,110
+23/12/24,not-self-cash,Lifestyle,Bda,760
+23/12/24,self-card,Lifestyle,Bda,45
+23/12/24,not-self-cash,Lifestyle,Temple,250
+23/12/24,self-cash,Lifestyle,Temple,200
+23/12/24,not-self-cash,Lifestyle,Bda,400
+23/12/24,not-self-cash,Lifestyle,Bda,500
+23/12/24,not-self-cash,Grocery,Shoprite,1250
+23/12/24,self-cash,Grocery,Shankar,350
+23/12/24,not-self-cash,Grocery,Shankar,350
+24/12/24,self-cash,Food,Foodcourt,1320
+24/12/24,self-card,Food,foodcourt,282
+24/12/24,self-card,Food,McD,104
+24/12/24,self-card,Travel,Parking,110
+24/12/24,self-cash,Grocery,Lulu,165
+24/12/24,not-self-cash,Grocery,Lulu,1400
+25/12/24,not-self-cash,Food,Idly,250
+25/12/24,self-cash,Lifestyle,Fun-city,3750
+25/12/24,self-cash,Food,McD-frozen,1480
+25/12/24,self-cash,Travel,Petrol,3500
+25/12/24,self-cash,Lifestyle,Temple,520
+25/12/24,self-cash,Food,Gopalan,540
+25/12/24,self-card,Food,Burgerking,205
+25/12/24,self-cash,Food,Corn-goli,160
+26/12/24,self-cash,Grocery,Zepto,600
+26/12/24,self-card,Food,Leena,1419
+26/12/24,self-card,Travel,Auto,180
+26/12/24,self-cash,Shopping,Vihaan-cloths,650
+26/12/24,self-cash,Grocery,Lulu-grocery,650
+26/12/24,self-cash,Lifestyle,MangoMist,6700
+26/12/24,self-card,Lifestyle,MangoMist,28036
+26/12/24,self-card,Grocery,Amazon-chocolate,408
+26/12/24,self-cash,Misc,Akka,10000
+26/12/24,self-cash,Education,OpenHouse,21000
