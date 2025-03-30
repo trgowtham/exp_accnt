@@ -12,3 +12,5 @@
 11/01/25,self-card,Education,Annually-School-fees,22142
 20/01/25,not-self-card,Utility,Annually-Mobile-recharge,1999
 03/01/25,not-self-card,Health,Annually-Medical-test,6463
+02/09/24,self-card,Education,Kumaranss-Outing-Annually,1590
+02/09/24,self-card,Lifestyle,Visa-Annually,15540

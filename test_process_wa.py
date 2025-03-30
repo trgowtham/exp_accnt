@@ -101,3 +101,15 @@ test_data( "Test 20", inp_data, test_op)
 inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket A1728 WA586"
 test_op = [["31/10/24", 'BigBasket', 'not-self', '1728', 'cash'], ["31/10/24", 'BigBasket', 'not-self', '586', 'card']]
 test_data( "Test 21", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket WA1728 WA586"
+test_op = [["31/10/24", 'BigBasket', 'not-self', '1728', 'card'], ["31/10/24", 'BigBasket', 'not-self', '586', 'card']]
+test_data( "Test 22", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: BigBasket Annually 172 W58"
+test_op = [["31/10/24", 'BigBasket Annually', 'self', '172', 'cash'], ["31/10/24", 'BigBasket Annually', 'self', '58', 'card']]
+test_data( "Test 23", inp_data, test_op)
+
+inp_data = "[31/10/24, 9:34:42 AM] Gowtham: Sindhu Anand Brahmnis 400 WA 550"
+test_op = [["31/10/24", 'Sindhu Anand Brahmnis', 'self', '400', 'cash'], ["31/10/24", 'Sindhu Anand Brahmnis', 'not-self', '550', 'card']]
+test_data( "Test 24", inp_data, test_op)
