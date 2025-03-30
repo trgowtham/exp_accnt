@@ -1,0 +1,62 @@
+Summary of Aug24.txt
+
+self-cash : 67514
+self-card : 12290
+not-self-cash : 10659
+not-self-card : 4841
+
+Travel - self-cash : 13865
+Travel - self-card : 338
+Travel - not-self-cash : 0
+Travel - not-self-card : 1360
+
+Lifestyle - self-cash : 8485
+Lifestyle - self-card : 115
+Lifestyle - not-self-cash : 250
+Lifestyle - not-self-card : 0
+
+Food - self-cash : 20160
+Food - self-card : 1446
+Food - not-self-cash : 3290
+Food - not-self-card : 1939
+
+Shopping - self-cash : 8384
+Shopping - self-card : 7068
+Shopping - not-self-cash : 1224
+Shopping - not-self-card : 0
+
+Grocery - self-cash : 7045
+Grocery - self-card : 3323
+Grocery - not-self-cash : 3775
+Grocery - not-self-card : 1450
+
+Health - self-cash : 0
+Health - self-card : 0
+Health - not-self-cash : 2120
+Health - not-self-card : 92
+
+Misc - self-cash : 220
+Misc - self-card : 0
+Misc - not-self-cash : 0
+Misc - not-self-card : 0
+
+Education - self-cash : 3655
+Education - self-card : 0
+Education - not-self-cash : 0
+Education - not-self-card : 0
+
+Utility - self-cash : 5700
+Utility - self-card : 0
+Utility - not-self-cash : 0
+Utility - not-self-card : 0
+
+Travel : 15563
+Lifestyle : 8850
+Food : 26835
+Shopping : 16676
+Grocery : 15593
+Health : 2212
+Misc : 220
+Education : 3655
+Utility : 5700
+Total : 95304

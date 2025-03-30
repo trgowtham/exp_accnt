@@ -1,13 +1,13 @@
 az,2,2
 bi,2,2
-auto,5,277
+auto,5,286
 lego,3,2
-maids,7,27
-sagar,6,20
-shoprite,2,38
-shankar,2,27
+maids,7,28
+sagar,6,24
+shoprite,2,62
+shankar,2,33
 az fresh,2,5
-myntra,3,12
+myntra,3,18
 ajio,3,3
 pancake,1,2
 vasavi thaddinam,4,2
@@ -16,16 +16,16 @@ babai pan,9,2
 pizza,1,24
 swiggy,1,35
 veggies srite,2,5
-blinkit,2,96
+blinkit,2,114
 az citric caustic,3,2
-petrol,5,66
+petrol,5,78
 zepto,2,136
 utk,1,2
 funcity,4,6
 lulu,2,27
 sw breakfast,1,2
 icecream,1,3
-parking,5,42
+parking,5,45
 saree plus,3,2
 blouse pieces,3,2
 festival expenses,4,5
@@ -55,9 +55,9 @@ shorts,3,2
 doctor dressing,6,2
 megha,2,2
 driver,5,2
-meghana,1,2
+meghana,1,5
 crackers,3,2
-bda,4,25
+bda,4,34
 cane juice,1,2
 auto cab,5,7
 youmee,1,9
@@ -93,7 +93,7 @@ nacho,1,3
 maid,7,4
 movie ticket,4,2
 medicine,6,19
-nithin,1,3
+nithin,1,6
 krishna grand food,1,3
 files,8,7
 big basket,2,27
@@ -106,7 +106,7 @@ swiggy snacks,1,3
 swiggy meghana,1,10
 plumber,0,15
 myntra gt jacket,3,3
-parlour,4,10
+parlour,4,13
 insurance,7,2
 sagar blood,6,3
 brahmins idly,1,3
@@ -126,7 +126,7 @@ donation,9,2
 wraffel,1,3
 masks,3,3
 shetty lunch,1,3
-coffee,1,3
+coffee,1,6
 toll parking,5,3
 foodcourt,1,7
 idly,1,16
@@ -153,7 +153,7 @@ coconut,1,12
 tata play,7,1
 act broadband,7,5
 school fees,8,1
-bigbasket,2,33
+bigbasket,2,45
 namadari food,1,5
 sankranti veggies shoprite,2,11
 blouse piece,3,11
@@ -186,7 +186,7 @@ shofr taxi,4,6
 juice,1,6
 raymond bava,3,6
 fatafat,4,6
-benne dosa,1,6
+benne dosa,1,9
 anand,1,6
 uiic parents,7,0
 uiic family,7,0
@@ -196,14 +196,14 @@ cross world,3,13
 honda car service,4,0
 milano,1,6
 pump house,1,6
-naamdhaari,1,6
+naamdhaari,1,12
 kumbakonam coffee,2,6
 bfast,1,6
 royal mart,2,13
 atithi,1,6
 swiggy insta,2,6
 dakshin thindi,1,6
-swiggy food,1,6
+swiggy food,1,9
 passport,4,6
 files and vasavi,2,6
 eye brow pencil,3,6
@@ -243,7 +243,7 @@ kumaranss outing annually,8,0
 ironing,4,0
 myt tea,1,0
 bike petrol,5,0
-deeprooted,2,1
+deeprooted,2,10
 music museum,4,0
 anand waffle,1,0
 bedbugs,4,1
@@ -267,3 +267,42 @@ body wash,2,0
 glen bakery,1,0
 venezia,1,0
 tpty,4,0
+neemsi,1,2
+tatacliq,3,2
+shoe rack,3,2
+pillows,3,2
+cafe,1,5
+bus ticket,5,2
+afresh,2,5
+amazon strap,3,2
+manipal,6,2
+kai ruchi,1,2
+blouse,3,2
+bda jayanagar belt,3,5
+urban company,4,2
+isckon,0,2
+swiggy sagar,1,5
+sindhu rameshwaram food,1,2
+sindhu youmee,1,2
+timezone,4,2
+sindhu smoor,1,2
+sindhu donut,1,2
+sindhu venkateshwara,1,2
+sindhu vidyarthi,1,2
+metro,5,2
+sindhu magnolia,1,2
+sindhu swiggy food,1,2
+sindhu anand brahmnis,1,5
+sindhu corn,1,5
+rakhi,3,2
+imtc,8,2
+sindhu vb bakery,1,5
+jio recharge annually,7,2
+museum,5,2
+sagar hospital,6,7
+snacks,1,2
+westside,3,2
+mahabharat,8,2
+sindhu gift annually,9,2
+donation annually,9,5
+ca annually,0,0

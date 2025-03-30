@@ -14,3 +14,9 @@
 03/01/25,not-self-card,Health,Annually-Medical-test,6463
 02/09/24,self-card,Education,Kumaranss-Outing-Annually,1590
 02/09/24,self-card,Lifestyle,Visa-Annually,15540
+30/08/24,self-cash,Utility,Jio-recharge-Annually,3600
+30/08/24,self-cash,Gift,Sindhu-Gift-Annually,20000
+30/08/24,self-cash,Gift,Donation-Annually,1000
+30/08/24,self-card,Gift,Donation-Annually,18000
+30/08/24,self-cash,Misc,CA-Annually,8500
+30/08/24,self-cash,Misc,CA-Annually,8501
