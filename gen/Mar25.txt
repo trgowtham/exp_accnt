@@ -1,0 +1,50 @@
+Summary of Mar25.txt
+
+self-cash : 36134
+self-card : 11421
+not-self-cash : 12883
+not-self-card : 11147
+
+Utility - self-cash : 6050
+Utility - self-card : 1597
+Utility - not-self-cash : 0
+Utility - not-self-card : 0
+
+Food - self-cash : 8482
+Food - self-card : 2105
+Food - not-self-cash : 2140
+Food - not-self-card : 271
+
+Travel - self-cash : 10302
+Travel - self-card : 986
+Travel - not-self-cash : 200
+Travel - not-self-card : 1315
+
+Grocery - self-cash : 5677
+Grocery - self-card : 6301
+Grocery - not-self-cash : 4064
+Grocery - not-self-card : 3461
+
+Lifestyle - self-cash : 230
+Lifestyle - self-card : 0
+Lifestyle - not-self-cash : 0
+Lifestyle - not-self-card : 2000
+
+Health - self-cash : 1050
+Health - self-card : 301
+Health - not-self-cash : 5329
+Health - not-self-card : 4100
+
+Shopping - self-cash : 4343
+Shopping - self-card : 131
+Shopping - not-self-cash : 1150
+Shopping - not-self-card : 0
+
+Utility : 7647
+Food : 12998
+Travel : 12803
+Grocery : 19503
+Lifestyle : 2230
+Health : 10780
+Shopping : 5624
+Total : 71585
