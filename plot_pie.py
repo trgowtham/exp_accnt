@@ -84,7 +84,7 @@ def process_file(ts_file):
 
 # Get file names from command line arguments
 if len(sys.argv) < 2:
-    print("Usage: python script.py <tsv_filename1> <tsv_filename2> ...")
+    print("Usage: plot_pie.py <tsv_filename1> <tsv_filename2> ...")
     sys.exit(1)
 
 for file in sys.argv[1:]:
